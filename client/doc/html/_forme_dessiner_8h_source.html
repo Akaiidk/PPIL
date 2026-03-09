@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de FormeDessiner.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_forme_dessiner_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormeDessiner.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_forme_dessiner_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_FORMEDESSIN_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_FORMEDESSIN_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_visiteur_8h.html">FormeVisiteur.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;winsock2.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span></div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_exception_dessin.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme_visiteur.html">ExceptionFormeVisiteur</a> {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_exception_dessin.html#abb6973b7b9cbeb4b283949a276b9ae8d">   13</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_dessin.html#abb6973b7b9cbeb4b283949a276b9ae8d">message</a> = <span class="stringliteral">&quot; ExceptionDessin -&quot;</span>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">   19</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme_visiteur.html#ad34459729517f76d54c3b99e36655870">ExceptionFormeVisiteur::getMessage</a>() + <a class="code hl_variable" href="class_exception_dessin.html#abb6973b7b9cbeb4b283949a276b9ae8d">message</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_exception_transformation_forme.html">   27</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_transformation_forme.html">ExceptionTransformationForme</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_exception_transformation_forme.html#a86e6d8b802123966cbc77f26b4b1f510">   31</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_transformation_forme.html#a86e6d8b802123966cbc77f26b4b1f510">message</a> = <span class="stringliteral">&quot; Il est impossible de transformer la forme&quot;</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_exception_transformation_forme.html#a1461190620c6cf4d2674713a3e7737ca">   37</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_transformation_forme.html#a1461190620c6cf4d2674713a3e7737ca">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a>() + <a class="code hl_variable" href="class_exception_transformation_forme.html#a86e6d8b802123966cbc77f26b4b1f510">message</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
+</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="};">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_exception_creation_socket.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_creation_socket.html">ExceptionCreationSocket</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_exception_creation_socket.html#a7ef1d7aacdd54a2effb7b4b8a4b3e3b1">   49</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_creation_socket.html#a7ef1d7aacdd54a2effb7b4b8a4b3e3b1">message</a> = <span class="stringliteral">&quot; Il est impossible de creer la socket&quot;</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_exception_creation_socket.html#a40d5db0401bd14044782b8127dbf9383">   55</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_creation_socket.html#a40d5db0401bd14044782b8127dbf9383">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a>() + <a class="code hl_variable" href="class_exception_creation_socket.html#a7ef1d7aacdd54a2effb7b4b8a4b3e3b1">message</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
+</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="};">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="class_exception_envoie_impossible.html">   63</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_envoie_impossible.html">ExceptionEnvoieImpossible</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_exception_envoie_impossible.html#a400005e0c46018c8bfc1a10c58ef74f2">   67</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_envoie_impossible.html#a400005e0c46018c8bfc1a10c58ef74f2">message</a> = <span class="stringliteral">&quot; Il est impossible d&#39;envoyer un message&quot;</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_exception_envoie_impossible.html#a4e5566da5d60822a21f6172380ae50df">   73</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_envoie_impossible.html#a4e5566da5d60822a21f6172380ae50df">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a>() + <a class="code hl_variable" href="class_exception_envoie_impossible.html#a400005e0c46018c8bfc1a10c58ef74f2">message</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
+</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="foldopen" id="foldopen00081" data-start="{" data-end="};">
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="class_exception_parametrage_paquet.html">   81</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_parametrage_paquet.html">ExceptionParametragePaquet</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="class_exception_parametrage_paquet.html#a8188b2582570d319232d20a28c607fe9">   85</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_parametrage_paquet.html#a8188b2582570d319232d20a28c607fe9">message</a> = <span class="stringliteral">&quot; Il est impossible de parametrer les paquets&quot;</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00091" data-start="{" data-end="}">
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_exception_parametrage_paquet.html#aa986ff64240a4a1d5a1f37ba478752c4">   91</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_parametrage_paquet.html#aa986ff64240a4a1d5a1f37ba478752c4">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a>() + <a class="code hl_variable" href="class_exception_parametrage_paquet.html#a8188b2582570d319232d20a28c607fe9">message</a>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    }</div>
+</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
+</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="};">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_exception_connexion_impossible.html">   99</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_connexion_impossible.html">ExceptionConnexionImpossible</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_dessin.html">ExceptionDessin</a> {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_exception_connexion_impossible.html#a263dd0b773d80ca5d83d84a38cb43393">  103</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_connexion_impossible.html#a263dd0b773d80ca5d83d84a38cb43393">message</a> = <span class="stringliteral">&quot; Il est impossible de se connecter au serveur&quot;</span>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00109" data-start="{" data-end="}">
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_exception_connexion_impossible.html#aef915968a89d61d26973aa50b6f61f17">  109</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_connexion_impossible.html#aef915968a89d61d26973aa50b6f61f17">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a>() + <a class="code hl_variable" href="class_exception_connexion_impossible.html#a263dd0b773d80ca5d83d84a38cb43393">message</a>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
+</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>};</div>
+</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span></div>
+<div class="foldopen" id="foldopen00117" data-start="{" data-end="};">
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="class_forme_dessiner.html">  117</a></span><span class="keyword">class </span><a class="code hl_function" href="class_forme_dessiner.html#aeb08800b50ee7b55a7a3e32ec07d7738">FormeDessiner</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> {</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="class_forme_dessiner.html#ab5c0de041b88b0a798123349c7b77df0">  121</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="class_forme_dessiner.html#ab5c0de041b88b0a798123349c7b77df0">adress</a>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="class_forme_dessiner.html#a3416da7a4eef97de7ef1111cdd6064ce">  125</a></span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_forme_dessiner.html#a3416da7a4eef97de7ef1111cdd6064ce">port</a> = 4567;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="class_forme_dessiner.html#a7489edc2a9d4586a16960af031e4a6cb">  129</a></span>    SOCKET <a class="code hl_variable" href="class_forme_dessiner.html#a7489edc2a9d4586a16960af031e4a6cb">sock</a>;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="class_forme_dessiner.html#aa55200703d4aac2fc8cc26a21cbbc747">  133</a></span>    SOCKADDR_IN <a class="code hl_variable" href="class_forme_dessiner.html#aa55200703d4aac2fc8cc26a21cbbc747">sockaddr</a>{};</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a039031e6dad7054a271d3547f356a981">traiterFormePourRequete</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_forme.html">Forme</a> &amp; f);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a43b00174dd749d368aace5bddc08b350">preTransformationPassageEcran</a>(<a class="code hl_class" href="class_forme.html">Forme</a> &amp; f);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#ae15760cab75ef7a8cadbe3ba300940af">envoyerRequete</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; requete);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_forme_dessiner.html#aeb08800b50ee7b55a7a3e32ec07d7738">FormeDessiner</a>();</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <a class="code hl_function" href="class_forme_dessiner.html#ab0ee1ef8e380e0dc872fbb9cad0897bb">~FormeDessiner</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_segment.html">Segment</a> &amp; f) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_cercle.html">Cercle</a> &amp; f) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_triangle.html">Triangle</a> &amp; f) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_polygone.html">Polygone</a> &amp; f) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <a class="code hl_class" href="class_forme_dessiner.html">FormeDessiner</a> &amp; <a class="code hl_function" href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_forme_composee.html">FormeComposee</a> &amp; f) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>};</div>
+</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_visiteur_8h_html"><div class="ttname"><a href="_forme_visiteur_8h.html">FormeVisiteur.h</a></div></div>
+<div class="ttc" id="aclass_cercle_html"><div class="ttname"><a href="class_cercle.html">Cercle</a></div><div class="ttdoc">Permet de gérer un cercle.</div><div class="ttdef"><b>Definition</b> Cercle.h:48</div></div>
+<div class="ttc" id="aclass_exception_connexion_impossible_html"><div class="ttname"><a href="class_exception_connexion_impossible.html">ExceptionConnexionImpossible</a></div><div class="ttdoc">Permet de gérer l&#39;exception lors de l&#39;impossibilité de se connecter au serveur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:99</div></div>
+<div class="ttc" id="aclass_exception_connexion_impossible_html_a263dd0b773d80ca5d83d84a38cb43393"><div class="ttname"><a href="class_exception_connexion_impossible.html#a263dd0b773d80ca5d83d84a38cb43393">ExceptionConnexionImpossible::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:103</div></div>
+<div class="ttc" id="aclass_exception_connexion_impossible_html_aef915968a89d61d26973aa50b6f61f17"><div class="ttname"><a href="class_exception_connexion_impossible.html#aef915968a89d61d26973aa50b6f61f17">ExceptionConnexionImpossible::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:109</div></div>
+<div class="ttc" id="aclass_exception_creation_socket_html"><div class="ttname"><a href="class_exception_creation_socket.html">ExceptionCreationSocket</a></div><div class="ttdoc">Permet de gérer l&#39;exception lors de l&#39;impossibilité de créer le socket.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:45</div></div>
+<div class="ttc" id="aclass_exception_creation_socket_html_a40d5db0401bd14044782b8127dbf9383"><div class="ttname"><a href="class_exception_creation_socket.html#a40d5db0401bd14044782b8127dbf9383">ExceptionCreationSocket::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:55</div></div>
+<div class="ttc" id="aclass_exception_creation_socket_html_a7ef1d7aacdd54a2effb7b4b8a4b3e3b1"><div class="ttname"><a href="class_exception_creation_socket.html#a7ef1d7aacdd54a2effb7b4b8a4b3e3b1">ExceptionCreationSocket::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:49</div></div>
+<div class="ttc" id="aclass_exception_dessin_html"><div class="ttname"><a href="class_exception_dessin.html">ExceptionDessin</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux visiteurs de forme dessin.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:9</div></div>
+<div class="ttc" id="aclass_exception_dessin_html_a05b827a77bc55a7cb4d3609ed0d1f159"><div class="ttname"><a href="class_exception_dessin.html#a05b827a77bc55a7cb4d3609ed0d1f159">ExceptionDessin::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:19</div></div>
+<div class="ttc" id="aclass_exception_dessin_html_abb6973b7b9cbeb4b283949a276b9ae8d"><div class="ttname"><a href="class_exception_dessin.html#abb6973b7b9cbeb4b283949a276b9ae8d">ExceptionDessin::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:13</div></div>
+<div class="ttc" id="aclass_exception_envoie_impossible_html"><div class="ttname"><a href="class_exception_envoie_impossible.html">ExceptionEnvoieImpossible</a></div><div class="ttdoc">Permet de gérer l&#39;exception lors de l&#39;impossibilité d&#39;envoyer un message.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:63</div></div>
+<div class="ttc" id="aclass_exception_envoie_impossible_html_a400005e0c46018c8bfc1a10c58ef74f2"><div class="ttname"><a href="class_exception_envoie_impossible.html#a400005e0c46018c8bfc1a10c58ef74f2">ExceptionEnvoieImpossible::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:67</div></div>
+<div class="ttc" id="aclass_exception_envoie_impossible_html_a4e5566da5d60822a21f6172380ae50df"><div class="ttname"><a href="class_exception_envoie_impossible.html#a4e5566da5d60822a21f6172380ae50df">ExceptionEnvoieImpossible::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:73</div></div>
+<div class="ttc" id="aclass_exception_forme_visiteur_html"><div class="ttname"><a href="class_exception_forme_visiteur.html">ExceptionFormeVisiteur</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux visiteurs de formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:12</div></div>
+<div class="ttc" id="aclass_exception_forme_visiteur_html_ad34459729517f76d54c3b99e36655870"><div class="ttname"><a href="class_exception_forme_visiteur.html#ad34459729517f76d54c3b99e36655870">ExceptionFormeVisiteur::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:22</div></div>
+<div class="ttc" id="aclass_exception_parametrage_paquet_html"><div class="ttname"><a href="class_exception_parametrage_paquet.html">ExceptionParametragePaquet</a></div><div class="ttdoc">Permet de gérer l&#39;exception lors de l&#39;impossibilité de paramétrer l&#39;envoie des messages.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:81</div></div>
+<div class="ttc" id="aclass_exception_parametrage_paquet_html_a8188b2582570d319232d20a28c607fe9"><div class="ttname"><a href="class_exception_parametrage_paquet.html#a8188b2582570d319232d20a28c607fe9">ExceptionParametragePaquet::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:85</div></div>
+<div class="ttc" id="aclass_exception_parametrage_paquet_html_aa986ff64240a4a1d5a1f37ba478752c4"><div class="ttname"><a href="class_exception_parametrage_paquet.html#aa986ff64240a4a1d5a1f37ba478752c4">ExceptionParametragePaquet::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:91</div></div>
+<div class="ttc" id="aclass_exception_transformation_forme_html"><div class="ttname"><a href="class_exception_transformation_forme.html">ExceptionTransformationForme</a></div><div class="ttdoc">Permet de gérer l&#39;exception lors de l&#39;impossibilité de transformer la forme.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:27</div></div>
+<div class="ttc" id="aclass_exception_transformation_forme_html_a1461190620c6cf4d2674713a3e7737ca"><div class="ttname"><a href="class_exception_transformation_forme.html#a1461190620c6cf4d2674713a3e7737ca">ExceptionTransformationForme::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:37</div></div>
+<div class="ttc" id="aclass_exception_transformation_forme_html_a86e6d8b802123966cbc77f26b4b1f510"><div class="ttname"><a href="class_exception_transformation_forme.html#a86e6d8b802123966cbc77f26b4b1f510">ExceptionTransformationForme::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:31</div></div>
+<div class="ttc" id="aclass_forme_composee_html"><div class="ttname"><a href="class_forme_composee.html">FormeComposee</a></div><div class="ttdoc">Permet de gérer une forme composée.</div><div class="ttdef"><b>Definition</b> FormeComposee.h:44</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html"><div class="ttname"><a href="class_forme_dessiner.html">FormeDessiner</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes dans le cadre d&#39;un dessin.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:117</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_a039031e6dad7054a271d3547f356a981"><div class="ttname"><a href="class_forme_dessiner.html#a039031e6dad7054a271d3547f356a981">FormeDessiner::traiterFormePourRequete</a></div><div class="ttdeci">FormeDessiner &amp; traiterFormePourRequete(const Forme &amp;f)</div><div class="ttdoc">Permet l&#39;envoie d&#39;une forme pour la dessiner.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:7</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_a2abf8227c875689aed8e98f9d2a40ed8"><div class="ttname"><a href="class_forme_dessiner.html#a2abf8227c875689aed8e98f9d2a40ed8">FormeDessiner::visit</a></div><div class="ttdeci">FormeDessiner &amp; visit(const Segment &amp;f) override</div><div class="ttdoc">Permet l&#39;introduction de méthode pour un segment via le design pattern visitor, ici le dessin.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:84</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_a3416da7a4eef97de7ef1111cdd6064ce"><div class="ttname"><a href="class_forme_dessiner.html#a3416da7a4eef97de7ef1111cdd6064ce">FormeDessiner::port</a></div><div class="ttdeci">static constexpr int port</div><div class="ttdoc">Port du serveur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:125</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_a43b00174dd749d368aace5bddc08b350"><div class="ttname"><a href="class_forme_dessiner.html#a43b00174dd749d368aace5bddc08b350">FormeDessiner::preTransformationPassageEcran</a></div><div class="ttdeci">FormeDessiner &amp; preTransformationPassageEcran(Forme &amp;f)</div><div class="ttdoc">Permet le prétraitement d&#39;une forme afin que celle-ci soit adaptée pour le dessin.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:17</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_a7489edc2a9d4586a16960af031e4a6cb"><div class="ttname"><a href="class_forme_dessiner.html#a7489edc2a9d4586a16960af031e4a6cb">FormeDessiner::sock</a></div><div class="ttdeci">SOCKET sock</div><div class="ttdoc">Socket.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:129</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_aa55200703d4aac2fc8cc26a21cbbc747"><div class="ttname"><a href="class_forme_dessiner.html#aa55200703d4aac2fc8cc26a21cbbc747">FormeDessiner::sockaddr</a></div><div class="ttdeci">SOCKADDR_IN sockaddr</div><div class="ttdoc">Paramètrage de la socket.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:133</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_ab0ee1ef8e380e0dc872fbb9cad0897bb"><div class="ttname"><a href="class_forme_dessiner.html#ab0ee1ef8e380e0dc872fbb9cad0897bb">FormeDessiner::~FormeDessiner</a></div><div class="ttdeci">~FormeDessiner() override</div><div class="ttdoc">Permet la destruction de l&#39;objet.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:79</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_ab5c0de041b88b0a798123349c7b77df0"><div class="ttname"><a href="class_forme_dessiner.html#ab5c0de041b88b0a798123349c7b77df0">FormeDessiner::adress</a></div><div class="ttdeci">static const string adress</div><div class="ttdoc">Adresse IP du serveur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.h:121</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_ae15760cab75ef7a8cadbe3ba300940af"><div class="ttname"><a href="class_forme_dessiner.html#ae15760cab75ef7a8cadbe3ba300940af">FormeDessiner::envoyerRequete</a></div><div class="ttdeci">FormeDessiner &amp; envoyerRequete(const string &amp;requete)</div><div class="ttdoc">Permet l&#39;envoie d&#39;un message au serveur.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:54</div></div>
+<div class="ttc" id="aclass_forme_dessiner_html_aeb08800b50ee7b55a7a3e32ec07d7738"><div class="ttname"><a href="class_forme_dessiner.html#aeb08800b50ee7b55a7a3e32ec07d7738">FormeDessiner::FormeDessiner</a></div><div class="ttdeci">FormeDessiner()</div><div class="ttdoc">Permet la construction du Visiteur permettant le dessin d&#39;un objet.</div><div class="ttdef"><b>Definition</b> FormeDessiner.cpp:61</div></div>
+<div class="ttc" id="aclass_forme_html"><div class="ttname"><a href="class_forme.html">Forme</a></div><div class="ttdoc">Permet de créer une forme.</div><div class="ttdef"><b>Definition</b> Forme.h:140</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_polygone_html"><div class="ttname"><a href="class_polygone.html">Polygone</a></div><div class="ttdoc">Permet de gérer du polygone.</div><div class="ttdef"><b>Definition</b> Polygone.h:8</div></div>
+<div class="ttc" id="aclass_segment_html"><div class="ttname"><a href="class_segment.html">Segment</a></div><div class="ttdoc">Permet de créer un segment.</div><div class="ttdef"><b>Definition</b> Segment.h:8</div></div>
+<div class="ttc" id="aclass_triangle_html"><div class="ttname"><a href="class_triangle.html">Triangle</a></div><div class="ttdoc">Permet de gérer un triangle.</div><div class="ttdef"><b>Definition</b> Triangle.h:8</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_forme_dessiner_8h.html">FormeDessiner.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

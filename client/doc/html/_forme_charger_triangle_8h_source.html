@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de FormeChargerTriangle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_forme_charger_triangle_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormeChargerTriangle.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_forme_charger_triangle_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_FORMECHARGERTRIANGLE_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_FORMECHARGERTRIANGLE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_charger_8h.html">FormeCharger.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span></div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_forme_charger_triangle.html">    8</a></span><span class="keyword">class </span><a class="code hl_function" href="class_forme_charger_triangle.html#a07269efcebff60bb93e2611b7a3edda4">FormeChargerTriangle</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_forme_charger.html#a2d78e9c72660e5c3ac00ca24d5fd1753">FormeCharger</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="class_forme.html">Forme</a> * <a class="code hl_function" href="class_forme_charger_triangle.html#adbc36c7de575547be915f8639b125cbd">charger</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; s, istringstream &amp; flux) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_forme_charger_triangle.html#a07269efcebff60bb93e2611b7a3edda4">FormeChargerTriangle</a>(<a class="code hl_function" href="class_forme_charger.html#a2d78e9c72660e5c3ac00ca24d5fd1753">FormeCharger</a> * <a class="code hl_variable" href="class_forme_charger.html#a8a1115de2d5be2becddd54b57b428f1c">suivant</a>);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_forme_charger_triangle.html#a01ae820bbeaa7a3d06a34b4059943626">   26</a></span>    <a class="code hl_function" href="class_forme_charger_triangle.html#a01ae820bbeaa7a3d06a34b4059943626">~FormeChargerTriangle</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_charger_8h_html"><div class="ttname"><a href="_forme_charger_8h.html">FormeCharger.h</a></div></div>
+<div class="ttc" id="aclass_forme_charger_html_a2d78e9c72660e5c3ac00ca24d5fd1753"><div class="ttname"><a href="class_forme_charger.html#a2d78e9c72660e5c3ac00ca24d5fd1753">FormeCharger::FormeCharger</a></div><div class="ttdeci">FormeCharger(FormeCharger *suivant)</div><div class="ttdoc">Permet la construction d&#39;un maillon du design pattern chain of responsability permettant le chargemen...</div><div class="ttdef"><b>Definition</b> FormeCharger.cpp:6</div></div>
+<div class="ttc" id="aclass_forme_charger_html_a8a1115de2d5be2becddd54b57b428f1c"><div class="ttname"><a href="class_forme_charger.html#a8a1115de2d5be2becddd54b57b428f1c">FormeCharger::suivant</a></div><div class="ttdeci">FormeCharger * suivant</div><div class="ttdoc">Le prochain maillon de la chaîne.</div><div class="ttdef"><b>Definition</b> FormeCharger.h:88</div></div>
+<div class="ttc" id="aclass_forme_charger_triangle_html_a01ae820bbeaa7a3d06a34b4059943626"><div class="ttname"><a href="class_forme_charger_triangle.html#a01ae820bbeaa7a3d06a34b4059943626">FormeChargerTriangle::~FormeChargerTriangle</a></div><div class="ttdeci">~FormeChargerTriangle() override</div><div class="ttdoc">Permet la destruction de l&#39;objet.</div></div>
+<div class="ttc" id="aclass_forme_charger_triangle_html_a07269efcebff60bb93e2611b7a3edda4"><div class="ttname"><a href="class_forme_charger_triangle.html#a07269efcebff60bb93e2611b7a3edda4">FormeChargerTriangle::FormeChargerTriangle</a></div><div class="ttdeci">FormeChargerTriangle(FormeCharger *suivant)</div><div class="ttdoc">Permet la construction d&#39;un maillon du design pattern chain of responsability permettant le chargemen...</div><div class="ttdef"><b>Definition</b> FormeChargerTriangle.cpp:18</div></div>
+<div class="ttc" id="aclass_forme_charger_triangle_html_adbc36c7de575547be915f8639b125cbd"><div class="ttname"><a href="class_forme_charger_triangle.html#adbc36c7de575547be915f8639b125cbd">FormeChargerTriangle::charger</a></div><div class="ttdeci">Forme * charger(const string &amp;s, istringstream &amp;flux) const override</div><div class="ttdoc">Permet de charger un triangle.</div><div class="ttdef"><b>Definition</b> FormeChargerTriangle.cpp:4</div></div>
+<div class="ttc" id="aclass_forme_html"><div class="ttname"><a href="class_forme.html">Forme</a></div><div class="ttdoc">Permet de créer une forme.</div><div class="ttdef"><b>Definition</b> Forme.h:140</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_forme_charger_triangle_8h.html">FormeChargerTriangle.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

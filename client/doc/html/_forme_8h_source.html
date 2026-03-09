@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de Forme.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_forme_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Forme.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_forme_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_FORME_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_FORME_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_matrice22_8h.html">Matrice22.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_vecteur2_d_8h.html">Vecteur2D.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span><a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">   16</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> {<a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">BLACK</a>, <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a1b3e1ee9bff86431dea6b181365ba65f">BLUE</a>, <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7aa2d9547b5d3dd9f05984475f7c926da0">RED</a>, <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a9de0e5dd94e861317e74964bed179fa0">GREEN</a>, <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a8a568e5f41b7e4da88fe5c4a00aad34e">YELLOW</a>, <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a344dd8cd533280795b9db82ef0c92749">CYAN</a>};</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_forme_8h.html#ad44976544a485f9a71e7807b16244589">   23</a></span><span class="keyword">inline</span> <span class="keywordtype">string</span> <a class="code hl_function" href="_forme_8h.html#ad44976544a485f9a71e7807b16244589">couleurToString</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; couleur) {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">switch</span> (couleur) {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Black&quot;</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a1b3e1ee9bff86431dea6b181365ba65f">Couleur::BLUE</a>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Blue&quot;</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7aa2d9547b5d3dd9f05984475f7c926da0">Couleur::RED</a>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Red&quot;</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a9de0e5dd94e861317e74964bed179fa0">Couleur::GREEN</a>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Green&quot;</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a8a568e5f41b7e4da88fe5c4a00aad34e">Couleur::YELLOW</a>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Yellow&quot;</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a344dd8cd533280795b9db82ef0c92749">Couleur::CYAN</a>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Cyan&quot;</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_exception_forme.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> : <span class="keyword">public</span> exception {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_exception_forme.html#ab0e12e6229a0d13c1013aaf2815f3262">   48</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_forme.html#ab0e12e6229a0d13c1013aaf2815f3262">message</a> = <span class="stringliteral">&quot;ExceptionForme -&quot;</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_exception_forme.html#ae2e9d381f8865766395cf6e2d035a85b">   54</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span> * <a class="code hl_function" href="class_exception_forme.html#ae2e9d381f8865766395cf6e2d035a85b">what</a>() const noexcept<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">getMessage</a>().c_str();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">   61</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">getMessage</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_exception_forme.html#ab0e12e6229a0d13c1013aaf2815f3262">message</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
+</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="class_exception_forme.html#aa5a61bc59773efde1765d4acfc4fb496">   68</a></span>    <span class="keyword">friend</span> ostream &amp; <a class="code hl_friend" href="class_exception_forme.html#aa5a61bc59773efde1765d4acfc4fb496">operator&lt;&lt;</a>(ostream &amp; s, <span class="keyword">const</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> &amp; e) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordflow">return</span> s &lt;&lt; e.<a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">getMessage</a>();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
+</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>};</div>
+</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="};">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_exception_couleur_inconnue.html">   76</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_couleur_inconnue.html">ExceptionCouleurInconnue</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="class_exception_couleur_inconnue.html#a5659991ab550fdd0aacdbc5e1ee4aa2b">   80</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_couleur_inconnue.html#a5659991ab550fdd0aacdbc5e1ee4aa2b">message</a> = <span class="stringliteral">&quot; La couleur est inconnue&quot;</span>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00086" data-start="{" data-end="}">
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="class_exception_couleur_inconnue.html#a56b79910c10476afccdcc481c3de3db9">   86</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_couleur_inconnue.html#a56b79910c10476afccdcc481c3de3db9">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a>() + <a class="code hl_variable" href="class_exception_couleur_inconnue.html#a5659991ab550fdd0aacdbc5e1ee4aa2b">message</a>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
+</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="foldopen" id="foldopen00097" data-start="{" data-end="}">
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="_forme_8h.html#ab6682947c7f2f5fefb1ba53a4d990007">   97</a></span><span class="keyword">inline</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> <a class="code hl_function" href="_forme_8h.html#ab6682947c7f2f5fefb1ba53a4d990007">stringToCouleur</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; s) {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Black&quot;</span>) {</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Blue&quot;</span>) {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a1b3e1ee9bff86431dea6b181365ba65f">Couleur::BLUE</a>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Red&quot;</span>) {</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7aa2d9547b5d3dd9f05984475f7c926da0">Couleur::RED</a>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    }</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Green&quot;</span>) {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a9de0e5dd94e861317e74964bed179fa0">Couleur::GREEN</a>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Yellow&quot;</span>) {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a8a568e5f41b7e4da88fe5c4a00aad34e">Couleur::YELLOW</a>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    }</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;Cyan&quot;</span>) {</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a344dd8cd533280795b9db82ef0c92749">Couleur::CYAN</a>;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    }</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordflow">throw</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a>();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>}</div>
+</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span></div>
+<div class="foldopen" id="foldopen00122" data-start="{" data-end="};">
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_exception_k_is_null.html">  122</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_k_is_null.html">ExceptionKIsNull</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> {</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="class_exception_k_is_null.html#a22f8d6d1f1291de3a135fdfa7c98fb02">  126</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_k_is_null.html#a22f8d6d1f1291de3a135fdfa7c98fb02">message</a> = <span class="stringliteral">&quot; Le rapport d&#39;homothetie k = 0 est interdit&quot;</span>;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00132" data-start="{" data-end="}">
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="class_exception_k_is_null.html#a5bb3f2d5aad5a980c66264c4d135acc9">  132</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_k_is_null.html#a5bb3f2d5aad5a980c66264c4d135acc9">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a>() + <a class="code hl_variable" href="class_exception_k_is_null.html#a22f8d6d1f1291de3a135fdfa7c98fb02">message</a>;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    }</div>
+</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>};</div>
+</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span></div>
+<div class="foldopen" id="foldopen00140" data-start="{" data-end="};">
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="class_forme.html">  140</a></span><span class="keyword">class </span><a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> {</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">  144</a></span>    <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_forme.html#a67b2accb069c0ead13ec41923f329333">verificationKIsNotNull</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; k);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="class_forme.html#aa846673739124ed44293ceaf515f3fa8">  163</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> * <a class="code hl_function" href="class_forme.html#aa846673739124ed44293ceaf515f3fa8">clone</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="class_forme.html#af6ad0735f86713459453c9d775f44aca">  167</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#af6ad0735f86713459453c9d775f44aca">~Forme</a>();</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> <a class="code hl_function" href="class_forme.html#a4fb5ac9b55ecb4af4ceeb05aeb618873">getCouleur</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#a8a7bff9d0c8df8129d2e1a52e969bf9a">setCouleur</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a>);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="class_forme.html#a2859631374b64f801dbc12817ac9d789">  183</a></span>    <span class="keyword">virtual</span> vector&lt;Vecteur2D&gt; <a class="code hl_function" href="class_forme.html#a2859631374b64f801dbc12817ac9d789">getPoints</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="class_forme.html#aa66eb5a7451f4864dd6e51d5519245c7">  188</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code hl_function" href="class_forme.html#aa66eb5a7451f4864dd6e51d5519245c7">getAire</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="class_forme.html#a6b0b897c86e1563c566e011c6499a3c0">  193</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#a6b0b897c86e1563c566e011c6499a3c0">translation</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p) = 0;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="class_forme.html#abbf3349ba9aa23ffa98ac499b84ad447">  198</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#abbf3349ba9aa23ffa98ac499b84ad447">homothetie</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; k) = 0;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="class_forme.html#ae95499fa8761bf442e6c370e9510638e">  203</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#ae95499fa8761bf442e6c370e9510638e">rotation</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; r) = 0;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="class_forme.html#a3a64bd834f4b55cfd65025e6ba47c30c">  210</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#a3a64bd834f4b55cfd65025e6ba47c30c">transformationEcran</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_matrice22.html">Matrice22</a> &amp; m, <span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; ab) = 0;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    <span class="keyword">static</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> * <a class="code hl_function" href="class_forme.html#a69c08f28b0a010031ce943b0f36fd616">charger</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp; path);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code hl_function" href="class_forme.html#a13a330c6ce1d7ce2f75e8cc13f24f0e7">toString</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keyword">explicit</span> <span class="keyword">operator</span> string() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="keyword">friend</span> ostream &amp; <a class="code hl_friend" href="class_forme.html#aa6077f4638740619e3cdc2c66a57db60">operator&lt;&lt;</a>(ostream &amp; s, <span class="keyword">const</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; f);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno"><a class="line" href="class_forme.html#a66885c34c0de7030dae10b2cdcf0c5ca">  237</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> &amp; <a class="code hl_function" href="class_forme.html#a66885c34c0de7030dae10b2cdcf0c5ca">accept</a>(<a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; visiteur) = 0;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>};</div>
+</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a></div><div class="ttdeci">Couleur</div><div class="ttdoc">Permet de caractériser les couleurs de nos formes.</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a></div><div class="ttdeci">@ BLACK</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a1b3e1ee9bff86431dea6b181365ba65f"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a1b3e1ee9bff86431dea6b181365ba65f">Couleur::BLUE</a></div><div class="ttdeci">@ BLUE</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a344dd8cd533280795b9db82ef0c92749"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a344dd8cd533280795b9db82ef0c92749">Couleur::CYAN</a></div><div class="ttdeci">@ CYAN</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a8a568e5f41b7e4da88fe5c4a00aad34e"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a8a568e5f41b7e4da88fe5c4a00aad34e">Couleur::YELLOW</a></div><div class="ttdeci">@ YELLOW</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a9de0e5dd94e861317e74964bed179fa0"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a9de0e5dd94e861317e74964bed179fa0">Couleur::GREEN</a></div><div class="ttdeci">@ GREEN</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7aa2d9547b5d3dd9f05984475f7c926da0"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7aa2d9547b5d3dd9f05984475f7c926da0">Couleur::RED</a></div><div class="ttdeci">@ RED</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_ab6682947c7f2f5fefb1ba53a4d990007"><div class="ttname"><a href="_forme_8h.html#ab6682947c7f2f5fefb1ba53a4d990007">stringToCouleur</a></div><div class="ttdeci">Couleur stringToCouleur(const string &amp;s)</div><div class="ttdoc">Retourne la couleur associée à la chaîne de caractères.</div><div class="ttdef"><b>Definition</b> Forme.h:97</div></div>
+<div class="ttc" id="a_forme_8h_html_ad44976544a485f9a71e7807b16244589"><div class="ttname"><a href="_forme_8h.html#ad44976544a485f9a71e7807b16244589">couleurToString</a></div><div class="ttdeci">string couleurToString(const Couleur &amp;couleur)</div><div class="ttdoc">Retourne la chaîne de caractères associée à la couleur.</div><div class="ttdef"><b>Definition</b> Forme.h:23</div></div>
+<div class="ttc" id="a_matrice22_8h_html"><div class="ttname"><a href="_matrice22_8h.html">Matrice22.h</a></div></div>
+<div class="ttc" id="a_vecteur2_d_8h_html"><div class="ttname"><a href="_vecteur2_d_8h.html">Vecteur2D.h</a></div></div>
+<div class="ttc" id="aclass_exception_couleur_inconnue_html"><div class="ttname"><a href="class_exception_couleur_inconnue.html">ExceptionCouleurInconnue</a></div><div class="ttdoc">Permet de gérer l&#39;erreur lors de la non-reconnaissance d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> Forme.h:76</div></div>
+<div class="ttc" id="aclass_exception_couleur_inconnue_html_a5659991ab550fdd0aacdbc5e1ee4aa2b"><div class="ttname"><a href="class_exception_couleur_inconnue.html#a5659991ab550fdd0aacdbc5e1ee4aa2b">ExceptionCouleurInconnue::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> Forme.h:80</div></div>
+<div class="ttc" id="aclass_exception_couleur_inconnue_html_a56b79910c10476afccdcc481c3de3db9"><div class="ttname"><a href="class_exception_couleur_inconnue.html#a56b79910c10476afccdcc481c3de3db9">ExceptionCouleurInconnue::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:86</div></div>
+<div class="ttc" id="aclass_exception_forme_html"><div class="ttname"><a href="class_exception_forme.html">ExceptionForme</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux formes.</div><div class="ttdef"><b>Definition</b> Forme.h:44</div></div>
+<div class="ttc" id="aclass_exception_forme_html_a43474c4ac259b204e4a2fc4f457a6488"><div class="ttname"><a href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a></div><div class="ttdeci">virtual string getMessage() const</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:61</div></div>
+<div class="ttc" id="aclass_exception_forme_html_aa5a61bc59773efde1765d4acfc4fb496"><div class="ttname"><a href="class_exception_forme.html#aa5a61bc59773efde1765d4acfc4fb496">ExceptionForme::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;s, const ExceptionForme &amp;e)</div><div class="ttdoc">Permet l&#39;utilisation du &lt;&lt; pour une erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:68</div></div>
+<div class="ttc" id="aclass_exception_forme_html_ab0e12e6229a0d13c1013aaf2815f3262"><div class="ttname"><a href="class_exception_forme.html#ab0e12e6229a0d13c1013aaf2815f3262">ExceptionForme::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> Forme.h:48</div></div>
+<div class="ttc" id="aclass_exception_forme_html_ae2e9d381f8865766395cf6e2d035a85b"><div class="ttname"><a href="class_exception_forme.html#ae2e9d381f8865766395cf6e2d035a85b">ExceptionForme::what</a></div><div class="ttdeci">const char * what() const noexcept override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:54</div></div>
+<div class="ttc" id="aclass_exception_k_is_null_html"><div class="ttname"><a href="class_exception_k_is_null.html">ExceptionKIsNull</a></div><div class="ttdoc">Permet de gérer l&#39;erreur de l&#39;utilisation d&#39;un k nulle pour la rotation.</div><div class="ttdef"><b>Definition</b> Forme.h:122</div></div>
+<div class="ttc" id="aclass_exception_k_is_null_html_a22f8d6d1f1291de3a135fdfa7c98fb02"><div class="ttname"><a href="class_exception_k_is_null.html#a22f8d6d1f1291de3a135fdfa7c98fb02">ExceptionKIsNull::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> Forme.h:126</div></div>
+<div class="ttc" id="aclass_exception_k_is_null_html_a5bb3f2d5aad5a980c66264c4d135acc9"><div class="ttname"><a href="class_exception_k_is_null.html#a5bb3f2d5aad5a980c66264c4d135acc9">ExceptionKIsNull::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:132</div></div>
+<div class="ttc" id="aclass_forme_html_a13a330c6ce1d7ce2f75e8cc13f24f0e7"><div class="ttname"><a href="class_forme.html#a13a330c6ce1d7ce2f75e8cc13f24f0e7">Forme::toString</a></div><div class="ttdeci">virtual string toString() const</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère indiquant les spécificités de la forme.</div><div class="ttdef"><b>Definition</b> Forme.cpp:39</div></div>
+<div class="ttc" id="aclass_forme_html_a2859631374b64f801dbc12817ac9d789"><div class="ttname"><a href="class_forme.html#a2859631374b64f801dbc12817ac9d789">Forme::getPoints</a></div><div class="ttdeci">virtual vector&lt; Vecteur2D &gt; getPoints() const =0</div><div class="ttdoc">Permet d&#39;obtenir l&#39;ensemble des points de la forme.</div></div>
+<div class="ttc" id="aclass_forme_html_a3a64bd834f4b55cfd65025e6ba47c30c"><div class="ttname"><a href="class_forme.html#a3a64bd834f4b55cfd65025e6ba47c30c">Forme::transformationEcran</a></div><div class="ttdeci">virtual Forme &amp; transformationEcran(const Matrice22 &amp;m, const Vecteur2D &amp;ab)=0</div><div class="ttdoc">Permet de réaliser une transformation de la forme pour un affichage sur écran.</div></div>
+<div class="ttc" id="aclass_forme_html_a3b97e946b4eadbfcffcdcdd606fbdf80"><div class="ttname"><a href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">Forme::couleur</a></div><div class="ttdeci">Couleur couleur</div><div class="ttdoc">La couleur de la forme.</div><div class="ttdef"><b>Definition</b> Forme.h:144</div></div>
+<div class="ttc" id="aclass_forme_html_a4fb5ac9b55ecb4af4ceeb05aeb618873"><div class="ttname"><a href="class_forme.html#a4fb5ac9b55ecb4af4ceeb05aeb618873">Forme::getCouleur</a></div><div class="ttdeci">Couleur getCouleur() const</div><div class="ttdoc">Retourne la couleur de la forme courante.</div><div class="ttdef"><b>Definition</b> Forme.cpp:19</div></div>
+<div class="ttc" id="aclass_forme_html_a66885c34c0de7030dae10b2cdcf0c5ca"><div class="ttname"><a href="class_forme.html#a66885c34c0de7030dae10b2cdcf0c5ca">Forme::accept</a></div><div class="ttdeci">virtual Forme &amp; accept(FormeVisiteur &amp;visiteur)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_html_a67b2accb069c0ead13ec41923f329333"><div class="ttname"><a href="class_forme.html#a67b2accb069c0ead13ec41923f329333">Forme::verificationKIsNotNull</a></div><div class="ttdeci">static void verificationKIsNotNull(const double &amp;k)</div><div class="ttdoc">Verifie si la constante k pour l&#39;homothétie n&#39;est pas nulle.</div><div class="ttdef"><b>Definition</b> Forme.cpp:9</div></div>
+<div class="ttc" id="aclass_forme_html_a69c08f28b0a010031ce943b0f36fd616"><div class="ttname"><a href="class_forme.html#a69c08f28b0a010031ce943b0f36fd616">Forme::charger</a></div><div class="ttdeci">static Forme * charger(const string &amp;path)</div><div class="ttdoc">Permet de charger une forme à partir d&#39;un fichier local.</div><div class="ttdef"><b>Definition</b> Forme.cpp:28</div></div>
+<div class="ttc" id="aclass_forme_html_a6b0b897c86e1563c566e011c6499a3c0"><div class="ttname"><a href="class_forme.html#a6b0b897c86e1563c566e011c6499a3c0">Forme::translation</a></div><div class="ttdeci">virtual Forme &amp; translation(const Vecteur2D &amp;p)=0</div><div class="ttdoc">Permet de réaliser une translation de la forme.</div></div>
+<div class="ttc" id="aclass_forme_html_a8a7bff9d0c8df8129d2e1a52e969bf9a"><div class="ttname"><a href="class_forme.html#a8a7bff9d0c8df8129d2e1a52e969bf9a">Forme::setCouleur</a></div><div class="ttdeci">Forme &amp; setCouleur(const Couleur &amp;couleur)</div><div class="ttdoc">Permet de changer la couleur de la forme.</div><div class="ttdef"><b>Definition</b> Forme.cpp:23</div></div>
+<div class="ttc" id="aclass_forme_html_aa6077f4638740619e3cdc2c66a57db60"><div class="ttname"><a href="class_forme.html#aa6077f4638740619e3cdc2c66a57db60">Forme::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;s, const Forme &amp;f)</div><div class="ttdoc">Permet l&#39;utilisation du &lt;&lt; pour une forme lors de l&#39;utilisation d&#39;ostream.</div><div class="ttdef"><b>Definition</b> Forme.cpp:47</div></div>
+<div class="ttc" id="aclass_forme_html_aa66eb5a7451f4864dd6e51d5519245c7"><div class="ttname"><a href="class_forme.html#aa66eb5a7451f4864dd6e51d5519245c7">Forme::getAire</a></div><div class="ttdeci">virtual double getAire() const =0</div><div class="ttdoc">Permet d&#39;obtenir l&#39;aire d&#39;une forme.</div></div>
+<div class="ttc" id="aclass_forme_html_aa846673739124ed44293ceaf515f3fa8"><div class="ttname"><a href="class_forme.html#aa846673739124ed44293ceaf515f3fa8">Forme::clone</a></div><div class="ttdeci">virtual Forme * clone() const =0</div><div class="ttdoc">Retourne un clone de la forme.</div></div>
+<div class="ttc" id="aclass_forme_html_ab7c5f1c023ef93909c566b0b81ffa7c1"><div class="ttname"><a href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme::Forme</a></div><div class="ttdeci">Forme(const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit une forme à partir d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> Forme.cpp:15</div></div>
+<div class="ttc" id="aclass_forme_html_abbf3349ba9aa23ffa98ac499b84ad447"><div class="ttname"><a href="class_forme.html#abbf3349ba9aa23ffa98ac499b84ad447">Forme::homothetie</a></div><div class="ttdeci">virtual Forme &amp; homothetie(const Vecteur2D &amp;p, const double &amp;k)=0</div><div class="ttdoc">Permet de réaliser une homothétie de la forme.</div></div>
+<div class="ttc" id="aclass_forme_html_ae95499fa8761bf442e6c370e9510638e"><div class="ttname"><a href="class_forme.html#ae95499fa8761bf442e6c370e9510638e">Forme::rotation</a></div><div class="ttdeci">virtual Forme &amp; rotation(const Vecteur2D &amp;p, const double &amp;r)=0</div><div class="ttdoc">Permet de réaliser une rotation de la forme.</div></div>
+<div class="ttc" id="aclass_forme_html_af6ad0735f86713459453c9d775f44aca"><div class="ttname"><a href="class_forme.html#af6ad0735f86713459453c9d775f44aca">Forme::~Forme</a></div><div class="ttdeci">virtual ~Forme()</div><div class="ttdoc">Permet la destruction de la forme.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_matrice22_html"><div class="ttname"><a href="class_matrice22.html">Matrice22</a></div><div class="ttdoc">Permet de gérer des matrices de taille 2 * 2.</div><div class="ttdef"><b>Definition</b> Matrice22.h:8</div></div>
+<div class="ttc" id="aclass_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Permet de gérer un vecteur.</div><div class="ttdef"><b>Definition</b> Vecteur2D.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_forme_8h.html">Forme.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

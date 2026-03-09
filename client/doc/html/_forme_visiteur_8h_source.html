@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de FormeVisiteur.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_forme_visiteur_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormeVisiteur.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_forme_visiteur_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_FORMEVISITEUR_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_FORMEVISITEUR_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_composee_8h.html">FormeComposee.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="_cercle_8h.html">Cercle.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="_polygone_8h.html">Polygone.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_segment_8h.html">Segment.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_triangle_8h.html">Triangle.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_exception_forme_visiteur.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_forme_visiteur.html">ExceptionFormeVisiteur</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_exception_forme_visiteur.html#a5bc5ebcbe28a49f0676c6b10e977b640">   16</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_forme_visiteur.html#a5bc5ebcbe28a49f0676c6b10e977b640">message</a> = <span class="stringliteral">&quot; ExceptionFormeVisiteur -&quot;</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_exception_forme_visiteur.html#ad34459729517f76d54c3b99e36655870">   22</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_forme_visiteur.html#ad34459729517f76d54c3b99e36655870">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a>() + <a class="code hl_variable" href="class_exception_forme_visiteur.html#a5bc5ebcbe28a49f0676c6b10e977b640">message</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
+</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html">   30</a></span><span class="keyword">class </span><a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#a19cf301edda31d870fe807f4c5a382ab">   35</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme_visiteur.html#a19cf301edda31d870fe807f4c5a382ab">~FormeVisiteur</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#ae357b1a7205b78b5b779c3f419ab228e">   41</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; <a class="code hl_function" href="class_forme_visiteur.html#ae357b1a7205b78b5b779c3f419ab228e">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_segment.html">Segment</a> &amp; f) = 0;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#ab82ee20f84f024ee7364beb4a1a964fe">   47</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; <a class="code hl_function" href="class_forme_visiteur.html#ab82ee20f84f024ee7364beb4a1a964fe">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_cercle.html">Cercle</a> &amp; f) = 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#a13ee536e740bb2660ff9bd03ce23b426">   53</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; <a class="code hl_function" href="class_forme_visiteur.html#a13ee536e740bb2660ff9bd03ce23b426">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_triangle.html">Triangle</a> &amp; f) = 0;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#a26471fd8a03de41d27ee7f9f1824f498">   59</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; <a class="code hl_function" href="class_forme_visiteur.html#a26471fd8a03de41d27ee7f9f1824f498">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_polygone.html">Polygone</a> &amp; f) = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_forme_visiteur.html#a2d5d3533f619b212d26b2755d9496e68">   65</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; <a class="code hl_function" href="class_forme_visiteur.html#a2d5d3533f619b212d26b2755d9496e68">visit</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_forme_composee.html">FormeComposee</a> &amp; f) = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
+</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_cercle_8h_html"><div class="ttname"><a href="_cercle_8h.html">Cercle.h</a></div></div>
+<div class="ttc" id="a_forme_composee_8h_html"><div class="ttname"><a href="_forme_composee_8h.html">FormeComposee.h</a></div></div>
+<div class="ttc" id="a_polygone_8h_html"><div class="ttname"><a href="_polygone_8h.html">Polygone.h</a></div></div>
+<div class="ttc" id="a_segment_8h_html"><div class="ttname"><a href="_segment_8h.html">Segment.h</a></div></div>
+<div class="ttc" id="a_triangle_8h_html"><div class="ttname"><a href="_triangle_8h.html">Triangle.h</a></div></div>
+<div class="ttc" id="aclass_cercle_html"><div class="ttname"><a href="class_cercle.html">Cercle</a></div><div class="ttdoc">Permet de gérer un cercle.</div><div class="ttdef"><b>Definition</b> Cercle.h:48</div></div>
+<div class="ttc" id="aclass_exception_forme_html"><div class="ttname"><a href="class_exception_forme.html">ExceptionForme</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux formes.</div><div class="ttdef"><b>Definition</b> Forme.h:44</div></div>
+<div class="ttc" id="aclass_exception_forme_html_a43474c4ac259b204e4a2fc4f457a6488"><div class="ttname"><a href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a></div><div class="ttdeci">virtual string getMessage() const</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:61</div></div>
+<div class="ttc" id="aclass_exception_forme_visiteur_html"><div class="ttname"><a href="class_exception_forme_visiteur.html">ExceptionFormeVisiteur</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux visiteurs de formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:12</div></div>
+<div class="ttc" id="aclass_exception_forme_visiteur_html_a5bc5ebcbe28a49f0676c6b10e977b640"><div class="ttname"><a href="class_exception_forme_visiteur.html#a5bc5ebcbe28a49f0676c6b10e977b640">ExceptionFormeVisiteur::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:16</div></div>
+<div class="ttc" id="aclass_exception_forme_visiteur_html_ad34459729517f76d54c3b99e36655870"><div class="ttname"><a href="class_exception_forme_visiteur.html#ad34459729517f76d54c3b99e36655870">ExceptionFormeVisiteur::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:22</div></div>
+<div class="ttc" id="aclass_forme_composee_html"><div class="ttname"><a href="class_forme_composee.html">FormeComposee</a></div><div class="ttdoc">Permet de gérer une forme composée.</div><div class="ttdef"><b>Definition</b> FormeComposee.h:44</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_a13ee536e740bb2660ff9bd03ce23b426"><div class="ttname"><a href="class_forme_visiteur.html#a13ee536e740bb2660ff9bd03ce23b426">FormeVisiteur::visit</a></div><div class="ttdeci">virtual FormeVisiteur &amp; visit(const Triangle &amp;f)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode pour un triangle via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_a19cf301edda31d870fe807f4c5a382ab"><div class="ttname"><a href="class_forme_visiteur.html#a19cf301edda31d870fe807f4c5a382ab">FormeVisiteur::~FormeVisiteur</a></div><div class="ttdeci">virtual ~FormeVisiteur()=default</div><div class="ttdoc">Permet la destruction du visiteur de forme simple.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_a26471fd8a03de41d27ee7f9f1824f498"><div class="ttname"><a href="class_forme_visiteur.html#a26471fd8a03de41d27ee7f9f1824f498">FormeVisiteur::visit</a></div><div class="ttdeci">virtual FormeVisiteur &amp; visit(const Polygone &amp;f)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode pour un polygone via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_a2d5d3533f619b212d26b2755d9496e68"><div class="ttname"><a href="class_forme_visiteur.html#a2d5d3533f619b212d26b2755d9496e68">FormeVisiteur::visit</a></div><div class="ttdeci">virtual FormeVisiteur &amp; visit(const FormeComposee &amp;f)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode pour une forme composée via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_ab82ee20f84f024ee7364beb4a1a964fe"><div class="ttname"><a href="class_forme_visiteur.html#ab82ee20f84f024ee7364beb4a1a964fe">FormeVisiteur::visit</a></div><div class="ttdeci">virtual FormeVisiteur &amp; visit(const Cercle &amp;f)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode pour un cercle via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html_ae357b1a7205b78b5b779c3f419ab228e"><div class="ttname"><a href="class_forme_visiteur.html#ae357b1a7205b78b5b779c3f419ab228e">FormeVisiteur::visit</a></div><div class="ttdeci">virtual FormeVisiteur &amp; visit(const Segment &amp;f)=0</div><div class="ttdoc">Permet l&#39;introduction de méthode pour un segment via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_polygone_html"><div class="ttname"><a href="class_polygone.html">Polygone</a></div><div class="ttdoc">Permet de gérer du polygone.</div><div class="ttdef"><b>Definition</b> Polygone.h:8</div></div>
+<div class="ttc" id="aclass_segment_html"><div class="ttname"><a href="class_segment.html">Segment</a></div><div class="ttdoc">Permet de créer un segment.</div><div class="ttdef"><b>Definition</b> Segment.h:8</div></div>
+<div class="ttc" id="aclass_triangle_html"><div class="ttname"><a href="class_triangle.html">Triangle</a></div><div class="ttdoc">Permet de gérer un triangle.</div><div class="ttdef"><b>Definition</b> Triangle.h:8</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_forme_visiteur_8h.html">FormeVisiteur.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

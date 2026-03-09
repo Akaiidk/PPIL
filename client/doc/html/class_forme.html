@@ -1,0 +1,747 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur: Référence de la classe Forme</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_forme.html','','class_forme-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Référence de la classe Forme<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Permet de créer une forme.  
+ <a href="#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_forme_8h_source.html">Forme.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de Forme:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_forme.png" usemap="#Forme_map" alt=""/>
+  <map id="Forme_map" name="Forme_map">
+<area href="class_forme_composee.html" title="Permet de gérer une forme composée." alt="FormeComposee" shape="rect" coords="0,56,107,80"/>
+<area href="class_forme_simple.html" title="Permet de gérer une forme simple." alt="FormeSimple" shape="rect" coords="175,56,282,80"/>
+<area href="class_cercle.html" title="Permet de gérer un cercle." alt="Cercle" shape="rect" coords="0,112,107,136"/>
+<area href="class_polygone.html" title="Permet de gérer du polygone." alt="Polygone" shape="rect" coords="117,112,224,136"/>
+<area href="class_segment.html" title="Permet de créer un segment." alt="Segment" shape="rect" coords="234,112,341,136"/>
+<area href="class_triangle.html" title="Permet de gérer un triangle." alt="Triangle" shape="rect" coords="351,112,458,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:ab7c5f1c023ef93909c566b0b81ffa7c1" id="r_ab7c5f1c023ef93909c566b0b81ffa7c1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> (const <a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp;<a class="el" href="#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a>=<a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>)</td></tr>
+<tr class="memdesc:ab7c5f1c023ef93909c566b0b81ffa7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une forme à partir d'une couleur.  <br /></td></tr>
+<tr class="memitem:aa846673739124ed44293ceaf515f3fa8" id="r_aa846673739124ed44293ceaf515f3fa8"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa846673739124ed44293ceaf515f3fa8">clone</a> () const =0</td></tr>
+<tr class="memdesc:aa846673739124ed44293ceaf515f3fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un clone de la forme.  <br /></td></tr>
+<tr class="memitem:af6ad0735f86713459453c9d775f44aca" id="r_af6ad0735f86713459453c9d775f44aca"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="#af6ad0735f86713459453c9d775f44aca">~Forme</a> ()</td></tr>
+<tr class="memdesc:af6ad0735f86713459453c9d775f44aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet la destruction de la forme.  <br /></td></tr>
+<tr class="memitem:a4fb5ac9b55ecb4af4ceeb05aeb618873" id="r_a4fb5ac9b55ecb4af4ceeb05aeb618873"><td class="memItemLeft"><a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4fb5ac9b55ecb4af4ceeb05aeb618873">getCouleur</a> () const</td></tr>
+<tr class="memdesc:a4fb5ac9b55ecb4af4ceeb05aeb618873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la couleur de la forme courante.  <br /></td></tr>
+<tr class="memitem:a8a7bff9d0c8df8129d2e1a52e969bf9a" id="r_a8a7bff9d0c8df8129d2e1a52e969bf9a"><td class="memItemLeft"><a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a8a7bff9d0c8df8129d2e1a52e969bf9a">setCouleur</a> (const <a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp;<a class="el" href="#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a>)</td></tr>
+<tr class="memdesc:a8a7bff9d0c8df8129d2e1a52e969bf9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de changer la couleur de la forme.  <br /></td></tr>
+<tr class="memitem:a2859631374b64f801dbc12817ac9d789" id="r_a2859631374b64f801dbc12817ac9d789"><td class="memItemLeft">virtual vector&lt; <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2859631374b64f801dbc12817ac9d789">getPoints</a> () const =0</td></tr>
+<tr class="memdesc:a2859631374b64f801dbc12817ac9d789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'obtenir l'ensemble des points de la forme.  <br /></td></tr>
+<tr class="memitem:aa66eb5a7451f4864dd6e51d5519245c7" id="r_aa66eb5a7451f4864dd6e51d5519245c7"><td class="memItemLeft">virtual double&#160;</td><td class="memItemRight"><a class="el" href="#aa66eb5a7451f4864dd6e51d5519245c7">getAire</a> () const =0</td></tr>
+<tr class="memdesc:aa66eb5a7451f4864dd6e51d5519245c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'obtenir l'aire d'une forme.  <br /></td></tr>
+<tr class="memitem:a6b0b897c86e1563c566e011c6499a3c0" id="r_a6b0b897c86e1563c566e011c6499a3c0"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a6b0b897c86e1563c566e011c6499a3c0">translation</a> (const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;p)=0</td></tr>
+<tr class="memdesc:a6b0b897c86e1563c566e011c6499a3c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de réaliser une translation de la forme.  <br /></td></tr>
+<tr class="memitem:abbf3349ba9aa23ffa98ac499b84ad447" id="r_abbf3349ba9aa23ffa98ac499b84ad447"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#abbf3349ba9aa23ffa98ac499b84ad447">homothetie</a> (const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;p, const double &amp;k)=0</td></tr>
+<tr class="memdesc:abbf3349ba9aa23ffa98ac499b84ad447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de réaliser une homothétie de la forme.  <br /></td></tr>
+<tr class="memitem:ae95499fa8761bf442e6c370e9510638e" id="r_ae95499fa8761bf442e6c370e9510638e"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ae95499fa8761bf442e6c370e9510638e">rotation</a> (const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;p, const double &amp;r)=0</td></tr>
+<tr class="memdesc:ae95499fa8761bf442e6c370e9510638e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de réaliser une rotation de la forme.  <br /></td></tr>
+<tr class="memitem:a3a64bd834f4b55cfd65025e6ba47c30c" id="r_a3a64bd834f4b55cfd65025e6ba47c30c"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a3a64bd834f4b55cfd65025e6ba47c30c">transformationEcran</a> (const <a class="el" href="class_matrice22.html">Matrice22</a> &amp;m, const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;ab)=0</td></tr>
+<tr class="memdesc:a3a64bd834f4b55cfd65025e6ba47c30c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de réaliser une transformation de la forme pour un affichage sur écran.  <br /></td></tr>
+<tr class="memitem:a13a330c6ce1d7ce2f75e8cc13f24f0e7" id="r_a13a330c6ce1d7ce2f75e8cc13f24f0e7"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#a13a330c6ce1d7ce2f75e8cc13f24f0e7">toString</a> () const</td></tr>
+<tr class="memdesc:a13a330c6ce1d7ce2f75e8cc13f24f0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'obtenir une chaîne de caractère indiquant les spécificités de la forme.  <br /></td></tr>
+<tr class="memitem:a809375f023f0f19227f3e3821ee56731" id="r_a809375f023f0f19227f3e3821ee56731"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a809375f023f0f19227f3e3821ee56731">operator string</a> () const</td></tr>
+<tr class="memdesc:a809375f023f0f19227f3e3821ee56731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'obtenir une chaîne de caractère indiquant les spécificités de la forme.  <br /></td></tr>
+<tr class="memitem:a66885c34c0de7030dae10b2cdcf0c5ca" id="r_a66885c34c0de7030dae10b2cdcf0c5ca"><td class="memItemLeft">virtual <a class="el" href="class_forme.html">Forme</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a66885c34c0de7030dae10b2cdcf0c5ca">accept</a> (<a class="el" href="class_forme_visiteur.html">FormeVisiteur</a> &amp;visiteur)=0</td></tr>
+<tr class="memdesc:a66885c34c0de7030dae10b2cdcf0c5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet l'introduction de méthode via le design pattern visitor.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Fonctions membres publiques statiques</h2></td></tr>
+<tr class="memitem:a69c08f28b0a010031ce943b0f36fd616" id="r_a69c08f28b0a010031ce943b0f36fd616"><td class="memItemLeft">static <a class="el" href="class_forme.html">Forme</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a69c08f28b0a010031ce943b0f36fd616">charger</a> (const string &amp;path)</td></tr>
+<tr class="memdesc:a69c08f28b0a010031ce943b0f36fd616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de charger une forme à partir d'un fichier local.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Fonctions membres protégées statiques</h2></td></tr>
+<tr class="memitem:a67b2accb069c0ead13ec41923f329333" id="r_a67b2accb069c0ead13ec41923f329333"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a67b2accb069c0ead13ec41923f329333">verificationKIsNotNull</a> (const double &amp;k)</td></tr>
+<tr class="memdesc:a67b2accb069c0ead13ec41923f329333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifie si la constante k pour l'homothétie n'est pas nulle.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a3b97e946b4eadbfcffcdcdd606fbdf80" id="r_a3b97e946b4eadbfcffcdcdd606fbdf80"><td class="memItemLeft"><a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a></td></tr>
+<tr class="memdesc:a3b97e946b4eadbfcffcdcdd606fbdf80"><td class="mdescLeft">&#160;</td><td class="mdescRight">La couleur de la forme.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+Amis</h2></td></tr>
+<tr class="memitem:aa6077f4638740619e3cdc2c66a57db60" id="r_aa6077f4638740619e3cdc2c66a57db60"><td class="memItemLeft">ostream &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aa6077f4638740619e3cdc2c66a57db60">operator&lt;&lt;</a> (ostream &amp;s, const <a class="el" href="class_forme.html">Forme</a> &amp;f)</td></tr>
+<tr class="memdesc:aa6077f4638740619e3cdc2c66a57db60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet l'utilisation du &lt;&lt; pour une forme lors de l'utilisation d'ostream.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Permet de créer une forme. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="ab7c5f1c023ef93909c566b0b81ffa7c1" name="ab7c5f1c023ef93909c566b0b81ffa7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c5f1c023ef93909c566b0b81ffa7c1">&#9670;&#160;</a></span>Forme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Forme::Forme </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>couleur</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit une forme à partir d'une couleur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="#a3b97e946b4eadbfcffcdcdd606fbdf80" title="La couleur de la forme.">couleur</a></td><td>La couleur souhaitée (à défaut noir) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Une forme </dd></dl>
+
+</div>
+</div>
+<a id="af6ad0735f86713459453c9d775f44aca" name="af6ad0735f86713459453c9d775f44aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ad0735f86713459453c9d775f44aca">&#9670;&#160;</a></span>~Forme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Forme::~Forme </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet la destruction de la forme. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentation des fonctions membres</h2>
+<a id="a66885c34c0de7030dae10b2cdcf0c5ca" name="a66885c34c0de7030dae10b2cdcf0c5ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66885c34c0de7030dae10b2cdcf0c5ca">&#9670;&#160;</a></span>accept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> &amp; Forme::accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_forme_visiteur.html">FormeVisiteur</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>visiteur</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet l'introduction de méthode via le design pattern visitor. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">visiteur</td><td>Un objet répondant au pattern visitor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_cercle.html#ad1b52ec632985f85c0333293df44de18">Cercle</a>, <a class="el" href="class_forme_composee.html#a91778dfc1e592c4ffcd2e40a196930f3">FormeComposee</a>, <a class="el" href="class_forme_simple.html#a57677e5e873b04d2974068ad824a1bbb">FormeSimple</a>, <a class="el" href="class_polygone.html#aea2fcab6362a54b7e03cd51ed4569d45">Polygone</a>, <a class="el" href="class_segment.html#adf00ecca3f32c910aedd9bdec85d3b85">Segment</a>, et <a class="el" href="class_triangle.html#a45c78cb833b47d4360f509a57ed18a57">Triangle</a>.</p>
+
+</div>
+</div>
+<a id="a69c08f28b0a010031ce943b0f36fd616" name="a69c08f28b0a010031ce943b0f36fd616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c08f28b0a010031ce943b0f36fd616">&#9670;&#160;</a></span>charger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forme.html">Forme</a> * Forme::charger </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de charger une forme à partir d'un fichier local. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>L'adresse du fichier souhaité </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>L'objet du fichier </dd></dl>
+
+</div>
+</div>
+<a id="aa846673739124ed44293ceaf515f3fa8" name="aa846673739124ed44293ceaf515f3fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa846673739124ed44293ceaf515f3fa8">&#9670;&#160;</a></span>clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> * Forme::clone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un clone de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Un clone de la forme </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_cercle.html#a3c36d615542e48bb44da468133d34baf">Cercle</a>, <a class="el" href="class_forme_composee.html#a5935e6612b692df2fcc110c96502b353">FormeComposee</a>, <a class="el" href="class_forme_simple.html#a9d996216f52ac316e2270b37b115214a">FormeSimple</a>, <a class="el" href="class_polygone.html#ab4f054c064da793bad593c8777a9c61c">Polygone</a>, <a class="el" href="class_segment.html#a990f17413beb826cc791c47b1aa5c153">Segment</a>, et <a class="el" href="class_triangle.html#ae5bb1b8c6bc3fc28dca76b2a056f63bf">Triangle</a>.</p>
+
+</div>
+</div>
+<a id="aa66eb5a7451f4864dd6e51d5519245c7" name="aa66eb5a7451f4864dd6e51d5519245c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66eb5a7451f4864dd6e51d5519245c7">&#9670;&#160;</a></span>getAire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double Forme::getAire </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet d'obtenir l'aire d'une forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>L'aire de la forme </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_cercle.html#a6a45615f467a38b9025c967f467279cb">Cercle</a>, <a class="el" href="class_forme_composee.html#a27804e9b0dc8d46fe32ff18da14764a6">FormeComposee</a>, <a class="el" href="class_forme_simple.html#a718ae06570b4c484f442444f0b9254d5">FormeSimple</a>, <a class="el" href="class_polygone.html#aaf4c234084c5e7b7c55a22174d7d0677">Polygone</a>, <a class="el" href="class_segment.html#abc0f8e9a978b89509359fb2c242614d2">Segment</a>, et <a class="el" href="class_triangle.html#a84150707dc4336ffb0f52541636faa97">Triangle</a>.</p>
+
+</div>
+</div>
+<a id="a4fb5ac9b55ecb4af4ceeb05aeb618873" name="a4fb5ac9b55ecb4af4ceeb05aeb618873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb5ac9b55ecb4af4ceeb05aeb618873">&#9670;&#160;</a></span>getCouleur()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> Forme::getCouleur </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retourne la couleur de la forme courante. </p>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param">couleur</code> La couleur </dd></dl>
+
+</div>
+</div>
+<a id="a2859631374b64f801dbc12817ac9d789" name="a2859631374b64f801dbc12817ac9d789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2859631374b64f801dbc12817ac9d789">&#9670;&#160;</a></span>getPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vector&lt; <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &gt; Forme::getPoints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet d'obtenir l'ensemble des points de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>L'ensemble des points </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_cercle.html#a3996e0a484caa1f5707612cd317b43a5">Cercle</a>, <a class="el" href="class_forme_composee.html#a1847f1a63695a4e39a0b90622b78ae36">FormeComposee</a>, <a class="el" href="class_polygone.html#a4aeb63d5156a17ff66a0591c4ddc53a3">Polygone</a>, <a class="el" href="class_segment.html#acfd04e57023a83421956f5839d938a01">Segment</a>, et <a class="el" href="class_triangle.html#a7ac36267acb19270ca17e13552ecb95f">Triangle</a>.</p>
+
+</div>
+</div>
+<a id="abbf3349ba9aa23ffa98ac499b84ad447" name="abbf3349ba9aa23ffa98ac499b84ad447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbf3349ba9aa23ffa98ac499b84ad447">&#9670;&#160;</a></span>homothetie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> &amp; Forme::homothetie </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double &amp;</td>          <td class="paramname"><span class="paramname"><em>k</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de réaliser une homothétie de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_forme_composee.html#a49260dc89e72a4641f1f7bff38bd5d32">FormeComposee</a>, et <a class="el" href="class_forme_simple.html#ab54e0592b3106db14310025356d26679">FormeSimple</a>.</p>
+
+</div>
+</div>
+<a id="a809375f023f0f19227f3e3821ee56731" name="a809375f023f0f19227f3e3821ee56731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809375f023f0f19227f3e3821ee56731">&#9670;&#160;</a></span>operator string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Forme::operator string </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet d'obtenir une chaîne de caractère indiquant les spécificités de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Une chaîne de caractère </dd></dl>
+
+</div>
+</div>
+<a id="ae95499fa8761bf442e6c370e9510638e" name="ae95499fa8761bf442e6c370e9510638e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae95499fa8761bf442e6c370e9510638e">&#9670;&#160;</a></span>rotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> &amp; Forme::rotation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de réaliser une rotation de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_forme_composee.html#aae39635c3ee8285a770adb72672e6f17">FormeComposee</a>, et <a class="el" href="class_forme_simple.html#a42ab66c1f3cd8b1d140a1059c4c11e1d">FormeSimple</a>.</p>
+
+</div>
+</div>
+<a id="a8a7bff9d0c8df8129d2e1a52e969bf9a" name="a8a7bff9d0c8df8129d2e1a52e969bf9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7bff9d0c8df8129d2e1a52e969bf9a">&#9670;&#160;</a></span>setCouleur()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_forme.html">Forme</a> &amp; Forme::setCouleur </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>couleur</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de changer la couleur de la forme. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="#a3b97e946b4eadbfcffcdcdd606fbdf80" title="La couleur de la forme.">couleur</a></td><td>La couleur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+</div>
+</div>
+<a id="a13a330c6ce1d7ce2f75e8cc13f24f0e7" name="a13a330c6ce1d7ce2f75e8cc13f24f0e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a330c6ce1d7ce2f75e8cc13f24f0e7">&#9670;&#160;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Forme::toString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet d'obtenir une chaîne de caractère indiquant les spécificités de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Une chaîne de caractère </dd></dl>
+
+<p>Réimplémentée dans <a class="el" href="class_cercle.html#a780b080182a2456a61c44d90fe95bbe3">Cercle</a>, <a class="el" href="class_forme_composee.html#aac9d5c9493fc4250538accbec49c9b1f">FormeComposee</a>, <a class="el" href="class_polygone.html#a9103227ee9cdb3d2711b96ba0b5ed913">Polygone</a>, <a class="el" href="class_segment.html#ac7e64ef747859920747c9da90e0e87ce">Segment</a>, et <a class="el" href="class_triangle.html#aeb3b0b40eb5f7fc4c27e505ad58683c9">Triangle</a>.</p>
+
+</div>
+</div>
+<a id="a3a64bd834f4b55cfd65025e6ba47c30c" name="a3a64bd834f4b55cfd65025e6ba47c30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a64bd834f4b55cfd65025e6ba47c30c">&#9670;&#160;</a></span>transformationEcran()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> &amp; Forme::transformationEcran </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_matrice22.html">Matrice22</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ab</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de réaliser une transformation de la forme pour un affichage sur écran. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>Une matrice </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ab</td><td>Un vecteur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_forme_composee.html#a6f5ae0caa8ebdfa5fbcc8132907e9ec1">FormeComposee</a>, et <a class="el" href="class_forme_simple.html#a66c87e062e06ba74cfd23f7749deae6a">FormeSimple</a>.</p>
+
+</div>
+</div>
+<a id="a6b0b897c86e1563c566e011c6499a3c0" name="a6b0b897c86e1563c566e011c6499a3c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b0b897c86e1563c566e011c6499a3c0">&#9670;&#160;</a></span>translation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_forme.html">Forme</a> &amp; Forme::translation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_vecteur2_d.html">Vecteur2D</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de réaliser une translation de la forme. </p>
+<dl class="section return"><dt>Renvoie</dt><dd><code class="param"></code>(*this) L'objet implicite </dd></dl>
+
+<p>Implémenté dans <a class="el" href="class_forme_composee.html#af06074564d6f93c5f46ae58925c005c5">FormeComposee</a>, et <a class="el" href="class_forme_simple.html#a9761dfb622b08cf7165507fc2ec3593c">FormeSimple</a>.</p>
+
+</div>
+</div>
+<a id="a67b2accb069c0ead13ec41923f329333" name="a67b2accb069c0ead13ec41923f329333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67b2accb069c0ead13ec41923f329333">&#9670;&#160;</a></span>verificationKIsNotNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Forme::verificationKIsNotNull </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;</td>          <td class="paramname"><span class="paramname"><em>k</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verifie si la constante k pour l'homothétie n'est pas nulle. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>La constante </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">Documentation des fonctions amies et associées</h2>
+<a id="aa6077f4638740619e3cdc2c66a57db60" name="aa6077f4638740619e3cdc2c66a57db60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6077f4638740619e3cdc2c66a57db60">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_forme.html">Forme</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet l'utilisation du &lt;&lt; pour une forme lors de l'utilisation d'ostream. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>L'ostream complété </dd></dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentation des données membres</h2>
+<a id="a3b97e946b4eadbfcffcdcdd606fbdf80" name="a3b97e946b4eadbfcffcdcdd606fbdf80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b97e946b4eadbfcffcdcdd606fbdf80">&#9670;&#160;</a></span>couleur</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> Forme::couleur</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>La couleur de la forme. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li><a class="el" href="_forme_8h_source.html">Forme.h</a></li>
+<li><a class="el" href="_forme_8cpp.html">Forme.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_forme.html">Forme</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

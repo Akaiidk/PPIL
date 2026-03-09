@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de Cercle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_cercle_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Cercle.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_cercle_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_CERCLE_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_CERCLE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_simple_8h.html">FormeSimple.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef M_PI</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="_cercle_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">    6</a></span><span class="preprocessor">    #define M_PI 3.14159265358979323846</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_exception_cercle.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_cercle.html">ExceptionCercle</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme_simple.html">ExceptionFormeSimple</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_exception_cercle.html#aa37040a2e4ea58f3bdb18160dad4ca29">   16</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_cercle.html#aa37040a2e4ea58f3bdb18160dad4ca29">message</a> = <span class="stringliteral">&quot; ExceptionCercle -&quot;</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_exception_cercle.html#a6409d337f442a85eafbb76323538750f">   22</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_cercle.html#a6409d337f442a85eafbb76323538750f">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a>() + <a class="code hl_variable" href="class_exception_cercle.html#aa37040a2e4ea58f3bdb18160dad4ca29">message</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
+</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_exception_rayon_negatif.html">   30</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_rayon_negatif.html">ExceptionRayonNegatif</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_cercle.html">ExceptionCercle</a> {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_exception_rayon_negatif.html#a19205166b5d01abca0c48ba481461b88">   34</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_rayon_negatif.html#a19205166b5d01abca0c48ba481461b88">message</a> = <span class="stringliteral">&quot; Le rayon doit etre superieur a 0&quot;</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_exception_rayon_negatif.html#ac137321d4cc659e995cb7efc82596cce">   40</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_rayon_negatif.html#ac137321d4cc659e995cb7efc82596cce">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_cercle.html#a6409d337f442a85eafbb76323538750f">ExceptionCercle::getMessage</a>() + <a class="code hl_variable" href="class_exception_rayon_negatif.html#a19205166b5d01abca0c48ba481461b88">message</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
+</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
+</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_cercle.html">   48</a></span><span class="keyword">class </span><a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_cercle.html#a21a37f2a9e002b5a894fd3bdab65ede2">   52</a></span>    <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code hl_variable" href="class_cercle.html#a21a37f2a9e002b5a894fd3bdab65ede2">c</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">   56</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">r</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_cercle.html#aaba2d9ea1c307005cec170ae3b9ef6a0">verificationRayon</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; <a class="code hl_variable" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">r</a>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; <a class="code hl_variable" href="class_cercle.html#a21a37f2a9e002b5a894fd3bdab65ede2">c</a>, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; <a class="code hl_variable" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">r</a> = 1, <span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; xc = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; yc = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; <a class="code hl_variable" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">r</a> = 1, <span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> * <a class="code hl_function" href="class_cercle.html#a3c36d615542e48bb44da468133d34baf">clone</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="class_cercle.html#af51e241a9f488384b368e43d7a03ca63">   90</a></span>    <a class="code hl_function" href="class_cercle.html#af51e241a9f488384b368e43d7a03ca63">~Cercle</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code hl_function" href="class_cercle.html#aae8781c5379f4039baeb95c4f532b16a">getc</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_cercle.html#a8e69fda2f5f4fb33c1efffb108b86ac9">getr</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> &amp; <a class="code hl_function" href="class_cercle.html#a152c42d70dbbde9830c731f3dfc9ad55">setc</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; <a class="code hl_variable" href="class_cercle.html#a21a37f2a9e002b5a894fd3bdab65ede2">c</a>);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> &amp; <a class="code hl_function" href="class_cercle.html#a152c42d70dbbde9830c731f3dfc9ad55">setc</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; xc = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; yc = 0);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> &amp; <a class="code hl_function" href="class_cercle.html#a2e53510e75ed21dbc485519e89376b6b">setr</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; <a class="code hl_variable" href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">r</a>);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    vector&lt;Vecteur2D&gt; <a class="code hl_function" href="class_cercle.html#a3996e0a484caa1f5707612cd317b43a5">getPoints</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> &amp; <a class="code hl_function" href="class_cercle.html#ac40cd946f1703659de2dd4c0832cdd08">setPoints</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_cercle.html#a6a45615f467a38b9025c967f467279cb">getAire</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_cercle.html#a780b080182a2456a61c44d90fe95bbe3">toString</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <a class="code hl_function" href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle</a> &amp; <a class="code hl_function" href="class_cercle.html#ad1b52ec632985f85c0333293df44de18">accept</a>(<a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; visiteur) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>};</div>
+</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a></div><div class="ttdeci">Couleur</div><div class="ttdoc">Permet de caractériser les couleurs de nos formes.</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a></div><div class="ttdeci">@ BLACK</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_simple_8h_html"><div class="ttname"><a href="_forme_simple_8h.html">FormeSimple.h</a></div></div>
+<div class="ttc" id="aclass_cercle_html_a152c42d70dbbde9830c731f3dfc9ad55"><div class="ttname"><a href="class_cercle.html#a152c42d70dbbde9830c731f3dfc9ad55">Cercle::setc</a></div><div class="ttdeci">Cercle &amp; setc(const Vecteur2D &amp;c)</div><div class="ttdoc">Change le centre du cercle par un autre centre c.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:31</div></div>
+<div class="ttc" id="aclass_cercle_html_a21a37f2a9e002b5a894fd3bdab65ede2"><div class="ttname"><a href="class_cercle.html#a21a37f2a9e002b5a894fd3bdab65ede2">Cercle::c</a></div><div class="ttdeci">Vecteur2D c</div><div class="ttdoc">Le centre du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.h:52</div></div>
+<div class="ttc" id="aclass_cercle_html_a2e53510e75ed21dbc485519e89376b6b"><div class="ttname"><a href="class_cercle.html#a2e53510e75ed21dbc485519e89376b6b">Cercle::setr</a></div><div class="ttdeci">Cercle &amp; setr(const double &amp;r)</div><div class="ttdoc">Change le rayon du cercle par un autre rayon r.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:40</div></div>
+<div class="ttc" id="aclass_cercle_html_a3996e0a484caa1f5707612cd317b43a5"><div class="ttname"><a href="class_cercle.html#a3996e0a484caa1f5707612cd317b43a5">Cercle::getPoints</a></div><div class="ttdeci">vector&lt; Vecteur2D &gt; getPoints() const override</div><div class="ttdoc">Permet d&#39;obtenir l&#39;ensemble des points du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:45</div></div>
+<div class="ttc" id="aclass_cercle_html_a3c36d615542e48bb44da468133d34baf"><div class="ttname"><a href="class_cercle.html#a3c36d615542e48bb44da468133d34baf">Cercle::clone</a></div><div class="ttdeci">Cercle * clone() const override</div><div class="ttdoc">Retourne un clone du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:17</div></div>
+<div class="ttc" id="aclass_cercle_html_a59e75bd5f5d9578b0402ff65c888af0b"><div class="ttname"><a href="class_cercle.html#a59e75bd5f5d9578b0402ff65c888af0b">Cercle::r</a></div><div class="ttdeci">double r</div><div class="ttdoc">Le rayon du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.h:56</div></div>
+<div class="ttc" id="aclass_cercle_html_a6a45615f467a38b9025c967f467279cb"><div class="ttname"><a href="class_cercle.html#a6a45615f467a38b9025c967f467279cb">Cercle::getAire</a></div><div class="ttdeci">double getAire() const override</div><div class="ttdoc">Retourne l&#39;aire du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:57</div></div>
+<div class="ttc" id="aclass_cercle_html_a780b080182a2456a61c44d90fe95bbe3"><div class="ttname"><a href="class_cercle.html#a780b080182a2456a61c44d90fe95bbe3">Cercle::toString</a></div><div class="ttdeci">string toString() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère indiquant les spécificités du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:61</div></div>
+<div class="ttc" id="aclass_cercle_html_a8e69fda2f5f4fb33c1efffb108b86ac9"><div class="ttname"><a href="class_cercle.html#a8e69fda2f5f4fb33c1efffb108b86ac9">Cercle::getr</a></div><div class="ttdeci">double getr() const</div><div class="ttdoc">Retourne le rayon du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:27</div></div>
+<div class="ttc" id="aclass_cercle_html_a8f31f6551a112d503378c5f7b9c19914"><div class="ttname"><a href="class_cercle.html#a8f31f6551a112d503378c5f7b9c19914">Cercle::Cercle</a></div><div class="ttdeci">Cercle(const Vecteur2D &amp;c, const double &amp;r=1, const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit un cercle à partir d&#39;une couleur, d&#39;un centre c et d&#39;un rayon r.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:10</div></div>
+<div class="ttc" id="aclass_cercle_html_aaba2d9ea1c307005cec170ae3b9ef6a0"><div class="ttname"><a href="class_cercle.html#aaba2d9ea1c307005cec170ae3b9ef6a0">Cercle::verificationRayon</a></div><div class="ttdeci">static void verificationRayon(const double &amp;r)</div><div class="ttdoc">Verifie si le rayon est bien supérieur à 0.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:4</div></div>
+<div class="ttc" id="aclass_cercle_html_aae8781c5379f4039baeb95c4f532b16a"><div class="ttname"><a href="class_cercle.html#aae8781c5379f4039baeb95c4f532b16a">Cercle::getc</a></div><div class="ttdeci">Vecteur2D getc() const</div><div class="ttdoc">Retourne le centre du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:23</div></div>
+<div class="ttc" id="aclass_cercle_html_ac40cd946f1703659de2dd4c0832cdd08"><div class="ttname"><a href="class_cercle.html#ac40cd946f1703659de2dd4c0832cdd08">Cercle::setPoints</a></div><div class="ttdeci">Cercle &amp; setPoints(const vector&lt; Vecteur2D &gt; &amp;v) override</div><div class="ttdoc">Permet de modifier l&#39;ensemble des points du cercle.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:49</div></div>
+<div class="ttc" id="aclass_cercle_html_ad1b52ec632985f85c0333293df44de18"><div class="ttname"><a href="class_cercle.html#ad1b52ec632985f85c0333293df44de18">Cercle::accept</a></div><div class="ttdeci">Cercle &amp; accept(FormeVisiteur &amp;visiteur) override</div><div class="ttdoc">Permet l&#39;introduction de méthode via le design pattern visitor.</div><div class="ttdef"><b>Definition</b> Cercle.cpp:65</div></div>
+<div class="ttc" id="aclass_cercle_html_af51e241a9f488384b368e43d7a03ca63"><div class="ttname"><a href="class_cercle.html#af51e241a9f488384b368e43d7a03ca63">Cercle::~Cercle</a></div><div class="ttdeci">~Cercle() override</div><div class="ttdoc">Permet la destruction du cercle.</div></div>
+<div class="ttc" id="aclass_exception_cercle_html"><div class="ttname"><a href="class_exception_cercle.html">ExceptionCercle</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux cercles.</div><div class="ttdef"><b>Definition</b> Cercle.h:12</div></div>
+<div class="ttc" id="aclass_exception_cercle_html_a6409d337f442a85eafbb76323538750f"><div class="ttname"><a href="class_exception_cercle.html#a6409d337f442a85eafbb76323538750f">ExceptionCercle::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Cercle.h:22</div></div>
+<div class="ttc" id="aclass_exception_cercle_html_aa37040a2e4ea58f3bdb18160dad4ca29"><div class="ttname"><a href="class_exception_cercle.html#aa37040a2e4ea58f3bdb18160dad4ca29">ExceptionCercle::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> Cercle.h:16</div></div>
+<div class="ttc" id="aclass_exception_forme_simple_html"><div class="ttname"><a href="class_exception_forme_simple.html">ExceptionFormeSimple</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux formes simples.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:8</div></div>
+<div class="ttc" id="aclass_exception_forme_simple_html_a6c8b6d800d5ee2acacbf5a19b1f8e6d9"><div class="ttname"><a href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:18</div></div>
+<div class="ttc" id="aclass_exception_rayon_negatif_html"><div class="ttname"><a href="class_exception_rayon_negatif.html">ExceptionRayonNegatif</a></div><div class="ttdoc">Permet de gérer l&#39;exception lorsque le rayon est negatif.</div><div class="ttdef"><b>Definition</b> Cercle.h:30</div></div>
+<div class="ttc" id="aclass_exception_rayon_negatif_html_a19205166b5d01abca0c48ba481461b88"><div class="ttname"><a href="class_exception_rayon_negatif.html#a19205166b5d01abca0c48ba481461b88">ExceptionRayonNegatif::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> Cercle.h:34</div></div>
+<div class="ttc" id="aclass_exception_rayon_negatif_html_ac137321d4cc659e995cb7efc82596cce"><div class="ttname"><a href="class_exception_rayon_negatif.html#ac137321d4cc659e995cb7efc82596cce">ExceptionRayonNegatif::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Cercle.h:40</div></div>
+<div class="ttc" id="aclass_forme_html_a3b97e946b4eadbfcffcdcdd606fbdf80"><div class="ttname"><a href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">Forme::couleur</a></div><div class="ttdeci">Couleur couleur</div><div class="ttdoc">La couleur de la forme.</div><div class="ttdef"><b>Definition</b> Forme.h:144</div></div>
+<div class="ttc" id="aclass_forme_simple_html_ae528f86891da353e02aaaea28fe436bf"><div class="ttname"><a href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple::FormeSimple</a></div><div class="ttdeci">FormeSimple(const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit une forme simple à partir d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:28</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Permet de gérer un vecteur.</div><div class="ttdef"><b>Definition</b> Vecteur2D.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_cercle_8h.html">Cercle.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

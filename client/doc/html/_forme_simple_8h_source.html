@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de FormeSimple.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_forme_simple_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormeSimple.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_forme_simple_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_FORMESIMPLE_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_FORMESIMPLE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_8h.html">Forme.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span></div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_exception_forme_simple.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_forme_simple.html">ExceptionFormeSimple</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme.html">ExceptionForme</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_exception_forme_simple.html#ab62fa1d12cdc7b0eec144044aca883cc">   12</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_forme_simple.html#ab62fa1d12cdc7b0eec144044aca883cc">message</a> = <span class="stringliteral">&quot; ExceptionFormeSimple -&quot;</span>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">   18</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a>() + <a class="code hl_variable" href="class_exception_forme_simple.html#ab62fa1d12cdc7b0eec144044aca883cc">message</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
+</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_exception_point_equals_another_point.html">   26</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_point_equals_another_point.html">ExceptionPointEqualsAnotherPoint</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme_simple.html">ExceptionFormeSimple</a> {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_exception_point_equals_another_point.html#a87bf515477df56add9f5a1af4566b770">   30</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_point_equals_another_point.html#a87bf515477df56add9f5a1af4566b770">message</a> = <span class="stringliteral">&quot; Deux des points sont de memes coordonnees&quot;</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_exception_point_equals_another_point.html#adf0d0255969f9ed337b9230b2417c5da">   36</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_point_equals_another_point.html#adf0d0255969f9ed337b9230b2417c5da">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a>() + <a class="code hl_variable" href="class_exception_point_equals_another_point.html#a87bf515477df56add9f5a1af4566b770">message</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_exception_array_is_too_short.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_array_is_too_short.html">ExceptionArrayIsTooShort</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme_simple.html">ExceptionFormeSimple</a> {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_exception_array_is_too_short.html#a8a9b875d4ad0dc58f633a1c979ab3b32">   48</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_array_is_too_short.html#a8a9b875d4ad0dc58f633a1c979ab3b32">message</a> = <span class="stringliteral">&quot; Le tableau ne possede pas suffisamment de points pour couvrir la forme&quot;</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_exception_array_is_too_short.html#a309382ce45f820d4ebde3969621e3b1e">   54</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_array_is_too_short.html#a309382ce45f820d4ebde3969621e3b1e">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a>() + <a class="code hl_variable" href="class_exception_array_is_too_short.html#a8a9b875d4ad0dc58f633a1c979ab3b32">message</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
+</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="};">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_exception_array_out_of_bound.html">   62</a></span><span class="keyword">class </span><a class="code hl_class" href="class_exception_array_out_of_bound.html">ExceptionArrayOutOfBound</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_exception_forme_simple.html">ExceptionFormeSimple</a> {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="class_exception_array_out_of_bound.html#a49f9a22f509a7a318b06bcd363700d99">   66</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_exception_array_out_of_bound.html#a49f9a22f509a7a318b06bcd363700d99">message</a> = <span class="stringliteral">&quot; La case du tableau n&#39;existe pas&quot;</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="class_exception_array_out_of_bound.html#a1e9c318dcd4adccebeb4a5949881b01e">   72</a></span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_exception_array_out_of_bound.html#a1e9c318dcd4adccebeb4a5949881b01e">getMessage</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a>() + <a class="code hl_variable" href="class_exception_array_out_of_bound.html#a49f9a22f509a7a318b06bcd363700d99">message</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
+</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="foldopen" id="foldopen00080" data-start="{" data-end="};">
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="class_forme_simple.html">   80</a></span><span class="keyword">class </span><a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme</a> {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_forme_simple.html#ad004c988657350c6b26e99f9c5ca2e4b">verificationNonEgaliteVecteur2D</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; a, <span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; b);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_forme_simple.html#a7dc7dbc63476ce7e996463fda6e37f2a">verificationTailleVector</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_forme_simple.html#a64a286495c1d6d8b195e1b8bfff352d0">verificationAccesVector</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_forme_simple.html#a68b93062d8b9ae5eb53219f4af12ca8b">verificationAccesVectorAddPoint</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="class_forme_simple.html#a9d996216f52ac316e2270b37b115214a">  121</a></span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> * <a class="code hl_function" href="class_forme_simple.html#a9d996216f52ac316e2270b37b115214a">clone</a>() <span class="keyword">const override</span> = 0;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="class_forme_simple.html#a0c78f5969fe73593e194c2ed1cc6e2e3">  125</a></span>    <a class="code hl_function" href="class_forme_simple.html#a0c78f5969fe73593e194c2ed1cc6e2e3">~FormeSimple</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="class_forme_simple.html#abb0f38ba7ad19edca6b1009951dcb6ea">  130</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#abb0f38ba7ad19edca6b1009951dcb6ea">setPoints</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v) = 0;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="class_forme_simple.html#a718ae06570b4c484f442444f0b9254d5">  135</a></span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_forme_simple.html#a718ae06570b4c484f442444f0b9254d5">getAire</a>() <span class="keyword">const override</span> = 0;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#a9761dfb622b08cf7165507fc2ec3593c">translation</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#ab54e0592b3106db14310025356d26679">homothetie</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; k) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#a42ab66c1f3cd8b1d140a1059c4c11e1d">rotation</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; r) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#a66c87e062e06ba74cfd23f7749deae6a">transformationEcran</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_matrice22.html">Matrice22</a> &amp; m, <span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; ab) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="class_forme_simple.html#a57677e5e873b04d2974068ad824a1bbb">  163</a></span>    <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> &amp; <a class="code hl_function" href="class_forme_simple.html#a57677e5e873b04d2974068ad824a1bbb">accept</a>(<a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; visiteur) <span class="keyword">override</span> = 0;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>};</div>
+</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_8h_html"><div class="ttname"><a href="_forme_8h.html">Forme.h</a></div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a></div><div class="ttdeci">Couleur</div><div class="ttdoc">Permet de caractériser les couleurs de nos formes.</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a></div><div class="ttdeci">@ BLACK</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="aclass_exception_array_is_too_short_html"><div class="ttname"><a href="class_exception_array_is_too_short.html">ExceptionArrayIsTooShort</a></div><div class="ttdoc">Permet de gérer l&#39;exception lorsqu&#39;on essaye d&#39;appliquer un ensemble de points pour une forme tandis ...</div><div class="ttdef"><b>Definition</b> FormeSimple.h:44</div></div>
+<div class="ttc" id="aclass_exception_array_is_too_short_html_a309382ce45f820d4ebde3969621e3b1e"><div class="ttname"><a href="class_exception_array_is_too_short.html#a309382ce45f820d4ebde3969621e3b1e">ExceptionArrayIsTooShort::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:54</div></div>
+<div class="ttc" id="aclass_exception_array_is_too_short_html_a8a9b875d4ad0dc58f633a1c979ab3b32"><div class="ttname"><a href="class_exception_array_is_too_short.html#a8a9b875d4ad0dc58f633a1c979ab3b32">ExceptionArrayIsTooShort::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:48</div></div>
+<div class="ttc" id="aclass_exception_array_out_of_bound_html"><div class="ttname"><a href="class_exception_array_out_of_bound.html">ExceptionArrayOutOfBound</a></div><div class="ttdoc">Permet de gérer l&#39;exception en cas de dépassement de case d&#39;un tableau.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:62</div></div>
+<div class="ttc" id="aclass_exception_array_out_of_bound_html_a1e9c318dcd4adccebeb4a5949881b01e"><div class="ttname"><a href="class_exception_array_out_of_bound.html#a1e9c318dcd4adccebeb4a5949881b01e">ExceptionArrayOutOfBound::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:72</div></div>
+<div class="ttc" id="aclass_exception_array_out_of_bound_html_a49f9a22f509a7a318b06bcd363700d99"><div class="ttname"><a href="class_exception_array_out_of_bound.html#a49f9a22f509a7a318b06bcd363700d99">ExceptionArrayOutOfBound::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:66</div></div>
+<div class="ttc" id="aclass_exception_forme_html"><div class="ttname"><a href="class_exception_forme.html">ExceptionForme</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux formes.</div><div class="ttdef"><b>Definition</b> Forme.h:44</div></div>
+<div class="ttc" id="aclass_exception_forme_html_a43474c4ac259b204e4a2fc4f457a6488"><div class="ttname"><a href="class_exception_forme.html#a43474c4ac259b204e4a2fc4f457a6488">ExceptionForme::getMessage</a></div><div class="ttdeci">virtual string getMessage() const</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> Forme.h:61</div></div>
+<div class="ttc" id="aclass_exception_forme_simple_html"><div class="ttname"><a href="class_exception_forme_simple.html">ExceptionFormeSimple</a></div><div class="ttdoc">Permet de gérer l&#39;ensemble des exceptions liées aux formes simples.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:8</div></div>
+<div class="ttc" id="aclass_exception_forme_simple_html_a6c8b6d800d5ee2acacbf5a19b1f8e6d9"><div class="ttname"><a href="class_exception_forme_simple.html#a6c8b6d800d5ee2acacbf5a19b1f8e6d9">ExceptionFormeSimple::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:18</div></div>
+<div class="ttc" id="aclass_exception_forme_simple_html_ab62fa1d12cdc7b0eec144044aca883cc"><div class="ttname"><a href="class_exception_forme_simple.html#ab62fa1d12cdc7b0eec144044aca883cc">ExceptionFormeSimple::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:12</div></div>
+<div class="ttc" id="aclass_exception_point_equals_another_point_html"><div class="ttname"><a href="class_exception_point_equals_another_point.html">ExceptionPointEqualsAnotherPoint</a></div><div class="ttdoc">Permet de gérer l&#39;exception lorsque deux points sont identiques dans une forme simple.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:26</div></div>
+<div class="ttc" id="aclass_exception_point_equals_another_point_html_a87bf515477df56add9f5a1af4566b770"><div class="ttname"><a href="class_exception_point_equals_another_point.html#a87bf515477df56add9f5a1af4566b770">ExceptionPointEqualsAnotherPoint::message</a></div><div class="ttdeci">string message</div><div class="ttdoc">Le message lié à l&#39;exception.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:30</div></div>
+<div class="ttc" id="aclass_exception_point_equals_another_point_html_adf0d0255969f9ed337b9230b2417c5da"><div class="ttname"><a href="class_exception_point_equals_another_point.html#adf0d0255969f9ed337b9230b2417c5da">ExceptionPointEqualsAnotherPoint::getMessage</a></div><div class="ttdeci">string getMessage() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère lié à l&#39;erreur.</div><div class="ttdef"><b>Definition</b> FormeSimple.h:36</div></div>
+<div class="ttc" id="aclass_forme_html_a3b97e946b4eadbfcffcdcdd606fbdf80"><div class="ttname"><a href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">Forme::couleur</a></div><div class="ttdeci">Couleur couleur</div><div class="ttdoc">La couleur de la forme.</div><div class="ttdef"><b>Definition</b> Forme.h:144</div></div>
+<div class="ttc" id="aclass_forme_html_ab7c5f1c023ef93909c566b0b81ffa7c1"><div class="ttname"><a href="class_forme.html#ab7c5f1c023ef93909c566b0b81ffa7c1">Forme::Forme</a></div><div class="ttdeci">Forme(const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit une forme à partir d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> Forme.cpp:15</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a0c78f5969fe73593e194c2ed1cc6e2e3"><div class="ttname"><a href="class_forme_simple.html#a0c78f5969fe73593e194c2ed1cc6e2e3">FormeSimple::~FormeSimple</a></div><div class="ttdeci">~FormeSimple() override</div><div class="ttdoc">Permet la destruction de la forme simple.</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a42ab66c1f3cd8b1d140a1059c4c11e1d"><div class="ttname"><a href="class_forme_simple.html#a42ab66c1f3cd8b1d140a1059c4c11e1d">FormeSimple::rotation</a></div><div class="ttdeci">FormeSimple &amp; rotation(const Vecteur2D &amp;p, const double &amp;r) override</div><div class="ttdoc">Permet de réaliser une rotation de la forme simple.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:53</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a57677e5e873b04d2974068ad824a1bbb"><div class="ttname"><a href="class_forme_simple.html#a57677e5e873b04d2974068ad824a1bbb">FormeSimple::accept</a></div><div class="ttdeci">FormeSimple &amp; accept(FormeVisiteur &amp;visiteur) override=0</div><div class="ttdoc">Permet l&#39;introduction de méthode via le design pattern visitor.</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a64a286495c1d6d8b195e1b8bfff352d0"><div class="ttname"><a href="class_forme_simple.html#a64a286495c1d6d8b195e1b8bfff352d0">FormeSimple::verificationAccesVector</a></div><div class="ttdeci">static void verificationAccesVector(const vector&lt; Vecteur2D &gt; &amp;v, int i)</div><div class="ttdoc">Verifie si un entier i permet l&#39;accès à un élément d&#39;un vecteur v.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:16</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a66c87e062e06ba74cfd23f7749deae6a"><div class="ttname"><a href="class_forme_simple.html#a66c87e062e06ba74cfd23f7749deae6a">FormeSimple::transformationEcran</a></div><div class="ttdeci">FormeSimple &amp; transformationEcran(const Matrice22 &amp;m, const Vecteur2D &amp;ab) override</div><div class="ttdoc">Permet de réaliser une transformation de la forme simple pour un affichage sur écran.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:64</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a68b93062d8b9ae5eb53219f4af12ca8b"><div class="ttname"><a href="class_forme_simple.html#a68b93062d8b9ae5eb53219f4af12ca8b">FormeSimple::verificationAccesVectorAddPoint</a></div><div class="ttdeci">static void verificationAccesVectorAddPoint(const vector&lt; Vecteur2D &gt; &amp;v, int i)</div><div class="ttdoc">Verifie si un entier i permet l&#39;accès à un élément d&#39;un vecteur v lors de l&#39;ajout d&#39;un point.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:22</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a718ae06570b4c484f442444f0b9254d5"><div class="ttname"><a href="class_forme_simple.html#a718ae06570b4c484f442444f0b9254d5">FormeSimple::getAire</a></div><div class="ttdeci">double getAire() const override=0</div><div class="ttdoc">Permet d&#39;obtenir l&#39;aire d&#39;une forme simple.</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a7dc7dbc63476ce7e996463fda6e37f2a"><div class="ttname"><a href="class_forme_simple.html#a7dc7dbc63476ce7e996463fda6e37f2a">FormeSimple::verificationTailleVector</a></div><div class="ttdeci">static void verificationTailleVector(const vector&lt; Vecteur2D &gt; &amp;v, int i)</div><div class="ttdoc">Verifie si un entier i correspond à la taille d&#39;un vector v.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:10</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a9761dfb622b08cf7165507fc2ec3593c"><div class="ttname"><a href="class_forme_simple.html#a9761dfb622b08cf7165507fc2ec3593c">FormeSimple::translation</a></div><div class="ttdeci">FormeSimple &amp; translation(const Vecteur2D &amp;p) override</div><div class="ttdoc">Permet de réaliser une translation de la forme simple.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:32</div></div>
+<div class="ttc" id="aclass_forme_simple_html_a9d996216f52ac316e2270b37b115214a"><div class="ttname"><a href="class_forme_simple.html#a9d996216f52ac316e2270b37b115214a">FormeSimple::clone</a></div><div class="ttdeci">FormeSimple * clone() const override=0</div><div class="ttdoc">Retourne un clone de la forme simple.</div></div>
+<div class="ttc" id="aclass_forme_simple_html_ab54e0592b3106db14310025356d26679"><div class="ttname"><a href="class_forme_simple.html#ab54e0592b3106db14310025356d26679">FormeSimple::homothetie</a></div><div class="ttdeci">FormeSimple &amp; homothetie(const Vecteur2D &amp;p, const double &amp;k) override</div><div class="ttdoc">Permet de réaliser une homothétie de la forme simple.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:41</div></div>
+<div class="ttc" id="aclass_forme_simple_html_abb0f38ba7ad19edca6b1009951dcb6ea"><div class="ttname"><a href="class_forme_simple.html#abb0f38ba7ad19edca6b1009951dcb6ea">FormeSimple::setPoints</a></div><div class="ttdeci">virtual FormeSimple &amp; setPoints(const vector&lt; Vecteur2D &gt; &amp;v)=0</div><div class="ttdoc">Permet de modifier l&#39;ensemble des points de la forme simple.</div></div>
+<div class="ttc" id="aclass_forme_simple_html_ad004c988657350c6b26e99f9c5ca2e4b"><div class="ttname"><a href="class_forme_simple.html#ad004c988657350c6b26e99f9c5ca2e4b">FormeSimple::verificationNonEgaliteVecteur2D</a></div><div class="ttdeci">static void verificationNonEgaliteVecteur2D(const Vecteur2D &amp;a, const Vecteur2D &amp;b)</div><div class="ttdoc">Verifie si un vecteur a n&#39;est pas égal à un vecteur b.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:4</div></div>
+<div class="ttc" id="aclass_forme_simple_html_ae528f86891da353e02aaaea28fe436bf"><div class="ttname"><a href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple::FormeSimple</a></div><div class="ttdeci">FormeSimple(const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit une forme simple à partir d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:28</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_matrice22_html"><div class="ttname"><a href="class_matrice22.html">Matrice22</a></div><div class="ttdoc">Permet de gérer des matrices de taille 2 * 2.</div><div class="ttdef"><b>Definition</b> Matrice22.h:8</div></div>
+<div class="ttc" id="aclass_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Permet de gérer un vecteur.</div><div class="ttdef"><b>Definition</b> Vecteur2D.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_forme_simple_8h.html">FormeSimple.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+var class_polygone =
+[
+    [ "Polygone", "class_polygone.html#a6b6e780a87941bf7bb45a5627dc219c4", null ],
+    [ "Polygone", "class_polygone.html#a8477fbfc00e7aa08336db708a3a18ba4", null ],
+    [ "~Polygone", "class_polygone.html#a53f36c6fe1cc1b6cb9ff6be06847e823", null ],
+    [ "accept", "class_polygone.html#aea2fcab6362a54b7e03cd51ed4569d45", null ],
+    [ "addPoint", "class_polygone.html#a9b6d58a6f0e19509639135e3cf9fae26", null ],
+    [ "addPointAt", "class_polygone.html#a58adcb73cc5c37ab3f6a4265830bceac", null ],
+    [ "clone", "class_polygone.html#ab4f054c064da793bad593c8777a9c61c", null ],
+    [ "getAire", "class_polygone.html#aaf4c234084c5e7b7c55a22174d7d0677", null ],
+    [ "getPointAt", "class_polygone.html#a453f058ab59470b220ff9bad42356978", null ],
+    [ "getPoints", "class_polygone.html#a4aeb63d5156a17ff66a0591c4ddc53a3", null ],
+    [ "modifyPoint", "class_polygone.html#a548c5a91037f79c75df5ae95a38b5c01", null ],
+    [ "modifyPointAt", "class_polygone.html#aa4b1f556b1afc1e07f1e7c58d58f13e6", null ],
+    [ "operator+", "class_polygone.html#ad4be7987054a37449487785100760ade", null ],
+    [ "operator-", "class_polygone.html#ad347de942792bf39ad664fa808e0bd15", null ],
+    [ "operator[]", "class_polygone.html#affbabb3dd6c54cb79e93509a9c2071dc", null ],
+    [ "removePoint", "class_polygone.html#a0b1afd9dc2c86a7eacf99d4d50040a7d", null ],
+    [ "removePointAt", "class_polygone.html#a7d44a08d97afd531664f929ac90203d0", null ],
+    [ "setPoints", "class_polygone.html#afc2c9583e4b5478b20c58ec35008ad6a", null ],
+    [ "switchPoint", "class_polygone.html#aa8c84be0cf9f91e447a8f4e0a5cd5e28", null ],
+    [ "switchPointAt", "class_polygone.html#aa89eb0b2acc325fdefcaa77fa548d66a", null ],
+    [ "toString", "class_polygone.html#a9103227ee9cdb3d2711b96ba0b5ed913", null ],
+    [ "verificationParametreVector", "class_polygone.html#aa1d24cf529714066c8948b471ee3cf33", null ],
+    [ "verificationVectorEtVecteur2D", "class_polygone.html#ab77fd1b667c1bc6a42f99c7362e3c656", null ],
+    [ "v", "class_polygone.html#a1d75fc6ca2c755ca035820c9693b7e4a", null ]
+];

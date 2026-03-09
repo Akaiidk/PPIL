@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPIL Serveur:  Fichier source de Segment.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">PPIL Serveur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_segment_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Segment.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_segment_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PPIL_SEGMENT_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PPIL_SEGMENT_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_forme_simple_8h.html">FormeSimple.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span></div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_segment.html">    8</a></span><span class="keyword">class </span><a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_segment.html#a84d19c8ad20d66e567989588f3fee064">   12</a></span>    <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code hl_variable" href="class_segment.html#a84d19c8ad20d66e567989588f3fee064">p</a>[2];</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p1, <span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p2, <span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; x1 = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; y1 = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; x2 = 1, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; y2 = 1, <span class="keyword">const</span> <a class="code hl_enumeration" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a> &amp; <a class="code hl_variable" href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">couleur</a> = <a class="code hl_enumvalue" href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> * <a class="code hl_function" href="class_segment.html#a990f17413beb826cc791c47b1aa5c153">clone</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_segment.html#ac6a746812ce1ea6c262911379ba5e911">   42</a></span>    <a class="code hl_function" href="class_segment.html#ac6a746812ce1ea6c262911379ba5e911">~Segment</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code hl_function" href="class_segment.html#aa9910b6ae8981dde7e5bb2c80ce37937">getp1</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code hl_function" href="class_segment.html#a946974c95c5e0b7bff0f88582547e6ad">getp2</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#a01485139efe02d077c1714cca8c29805">setp1</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p1);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#a01485139efe02d077c1714cca8c29805">setp1</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; x1 = 0, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; y1 = 0);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#a92cb5db3bc5e49674890be509105133f">setp2</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vecteur2_d.html">Vecteur2D</a> &amp; p2);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#a92cb5db3bc5e49674890be509105133f">setp2</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp; x2 = 1, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; y2 = 1);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment">     * @brief Permet d&#39;obtenir l&#39;ensemble des points du segment</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment">     * @return L&#39;ensemble des points</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment">     */</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    vector&lt;Vecteur2D&gt; <a class="code hl_function" href="class_segment.html#acfd04e57023a83421956f5839d938a01">getPoints</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#a336e7cb52732065ab87a225764d618d7">setPoints</a>(<span class="keyword">const</span> vector&lt;Vecteur2D&gt; &amp; v) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_segment.html#abc0f8e9a978b89509359fb2c242614d2">getAire</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_segment.html#ac7e64ef747859920747c9da90e0e87ce">toString</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <a class="code hl_function" href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment</a> &amp; <a class="code hl_function" href="class_segment.html#adf00ecca3f32c910aedd9bdec85d3b85">accept</a>(<a class="code hl_class" href="class_forme_visiteur.html">FormeVisiteur</a> &amp; visiteur) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>};</div>
+</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7">Couleur</a></div><div class="ttdeci">Couleur</div><div class="ttdoc">Permet de caractériser les couleurs de nos formes.</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_8h_html_aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965"><div class="ttname"><a href="_forme_8h.html#aa304d0ca681f782b1d7735da33037dd7a08d0012388564e95c3b4a7407cf04965">Couleur::BLACK</a></div><div class="ttdeci">@ BLACK</div><div class="ttdef"><b>Definition</b> Forme.h:16</div></div>
+<div class="ttc" id="a_forme_simple_8h_html"><div class="ttname"><a href="_forme_simple_8h.html">FormeSimple.h</a></div></div>
+<div class="ttc" id="aclass_forme_html_a3b97e946b4eadbfcffcdcdd606fbdf80"><div class="ttname"><a href="class_forme.html#a3b97e946b4eadbfcffcdcdd606fbdf80">Forme::couleur</a></div><div class="ttdeci">Couleur couleur</div><div class="ttdoc">La couleur de la forme.</div><div class="ttdef"><b>Definition</b> Forme.h:144</div></div>
+<div class="ttc" id="aclass_forme_simple_html_ae528f86891da353e02aaaea28fe436bf"><div class="ttname"><a href="class_forme_simple.html#ae528f86891da353e02aaaea28fe436bf">FormeSimple::FormeSimple</a></div><div class="ttdeci">FormeSimple(const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit une forme simple à partir d&#39;une couleur.</div><div class="ttdef"><b>Definition</b> FormeSimple.cpp:28</div></div>
+<div class="ttc" id="aclass_forme_visiteur_html"><div class="ttname"><a href="class_forme_visiteur.html">FormeVisiteur</a></div><div class="ttdoc">Permet l&#39;implémentation du pattern design visiteur pour les formes.</div><div class="ttdef"><b>Definition</b> FormeVisiteur.h:30</div></div>
+<div class="ttc" id="aclass_segment_html_a01485139efe02d077c1714cca8c29805"><div class="ttname"><a href="class_segment.html#a01485139efe02d077c1714cca8c29805">Segment::setp1</a></div><div class="ttdeci">Segment &amp; setp1(const Vecteur2D &amp;p1)</div><div class="ttdoc">Change le premier sommet du segment par un autre sommet p1.</div><div class="ttdef"><b>Definition</b> Segment.cpp:25</div></div>
+<div class="ttc" id="aclass_segment_html_a21d33714c6c6beaf50c3a61ef520563b"><div class="ttname"><a href="class_segment.html#a21d33714c6c6beaf50c3a61ef520563b">Segment::Segment</a></div><div class="ttdeci">Segment(const Vecteur2D &amp;p1, const Vecteur2D &amp;p2, const Couleur &amp;couleur=Couleur::BLACK)</div><div class="ttdoc">Construit un segment à partir d&#39;une couleur, d&#39;un sommet p1 et d&#39;un sommet p2.</div><div class="ttdef"><b>Definition</b> Segment.cpp:4</div></div>
+<div class="ttc" id="aclass_segment_html_a336e7cb52732065ab87a225764d618d7"><div class="ttname"><a href="class_segment.html#a336e7cb52732065ab87a225764d618d7">Segment::setPoints</a></div><div class="ttdeci">Segment &amp; setPoints(const vector&lt; Vecteur2D &gt; &amp;v) override</div><div class="ttdoc">Permet de modifier l&#39;ensemble des points du segment.</div><div class="ttdef"><b>Definition</b> Segment.cpp:49</div></div>
+<div class="ttc" id="aclass_segment_html_a84d19c8ad20d66e567989588f3fee064"><div class="ttname"><a href="class_segment.html#a84d19c8ad20d66e567989588f3fee064">Segment::p</a></div><div class="ttdeci">Vecteur2D p[2]</div><div class="ttdoc">L&#39;ensemble des points du Segment.</div><div class="ttdef"><b>Definition</b> Segment.h:12</div></div>
+<div class="ttc" id="aclass_segment_html_a92cb5db3bc5e49674890be509105133f"><div class="ttname"><a href="class_segment.html#a92cb5db3bc5e49674890be509105133f">Segment::setp2</a></div><div class="ttdeci">Segment &amp; setp2(const Vecteur2D &amp;p2)</div><div class="ttdoc">Change le deuxième sommet du segment par un autre sommet p2.</div><div class="ttdef"><b>Definition</b> Segment.cpp:35</div></div>
+<div class="ttc" id="aclass_segment_html_a946974c95c5e0b7bff0f88582547e6ad"><div class="ttname"><a href="class_segment.html#a946974c95c5e0b7bff0f88582547e6ad">Segment::getp2</a></div><div class="ttdeci">Vecteur2D getp2() const</div><div class="ttdoc">Retourne le deuxième sommet.</div><div class="ttdef"><b>Definition</b> Segment.cpp:21</div></div>
+<div class="ttc" id="aclass_segment_html_a990f17413beb826cc791c47b1aa5c153"><div class="ttname"><a href="class_segment.html#a990f17413beb826cc791c47b1aa5c153">Segment::clone</a></div><div class="ttdeci">Segment * clone() const override</div><div class="ttdoc">Retourne un clone du segment.</div><div class="ttdef"><b>Definition</b> Segment.cpp:11</div></div>
+<div class="ttc" id="aclass_segment_html_aa9910b6ae8981dde7e5bb2c80ce37937"><div class="ttname"><a href="class_segment.html#aa9910b6ae8981dde7e5bb2c80ce37937">Segment::getp1</a></div><div class="ttdeci">Vecteur2D getp1() const</div><div class="ttdoc">Retourne le premier sommet.</div><div class="ttdef"><b>Definition</b> Segment.cpp:17</div></div>
+<div class="ttc" id="aclass_segment_html_abc0f8e9a978b89509359fb2c242614d2"><div class="ttname"><a href="class_segment.html#abc0f8e9a978b89509359fb2c242614d2">Segment::getAire</a></div><div class="ttdeci">double getAire() const override</div><div class="ttdoc">Retourne l&#39;aire du segment.</div><div class="ttdef"><b>Definition</b> Segment.cpp:57</div></div>
+<div class="ttc" id="aclass_segment_html_ac6a746812ce1ea6c262911379ba5e911"><div class="ttname"><a href="class_segment.html#ac6a746812ce1ea6c262911379ba5e911">Segment::~Segment</a></div><div class="ttdeci">~Segment() override</div><div class="ttdoc">Permet la destruction du segment.</div></div>
+<div class="ttc" id="aclass_segment_html_ac7e64ef747859920747c9da90e0e87ce"><div class="ttname"><a href="class_segment.html#ac7e64ef747859920747c9da90e0e87ce">Segment::toString</a></div><div class="ttdeci">string toString() const override</div><div class="ttdoc">Permet d&#39;obtenir une chaîne de caractère indiquant les spécificités du segment.</div><div class="ttdef"><b>Definition</b> Segment.cpp:62</div></div>
+<div class="ttc" id="aclass_segment_html_acfd04e57023a83421956f5839d938a01"><div class="ttname"><a href="class_segment.html#acfd04e57023a83421956f5839d938a01">Segment::getPoints</a></div><div class="ttdeci">vector&lt; Vecteur2D &gt; getPoints() const override</div><div class="ttdoc">Permet d&#39;obtenir l&#39;ensemble des points de la forme.</div><div class="ttdef"><b>Definition</b> Segment.cpp:45</div></div>
+<div class="ttc" id="aclass_segment_html_adf00ecca3f32c910aedd9bdec85d3b85"><div class="ttname"><a href="class_segment.html#adf00ecca3f32c910aedd9bdec85d3b85">Segment::accept</a></div><div class="ttdeci">Segment &amp; accept(FormeVisiteur &amp;visiteur) override</div><div class="ttdoc">Permet l&#39;introduction de méthode via le design pattern visitor.</div><div class="ttdef"><b>Definition</b> Segment.cpp:66</div></div>
+<div class="ttc" id="aclass_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Permet de gérer un vecteur.</div><div class="ttdef"><b>Definition</b> Vecteur2D.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_segment_8h.html">Segment.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>
