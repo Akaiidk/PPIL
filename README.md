@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-PPIL est un projet de synthèse réalisé dans le cadre de la formation L3, mettant en œuvre une architecture **client-serveur**.
+PPIL est un projet de synthèse réalisé dans le cadre de la formation L3, mettant en œuvre une architecture **client-serveur** qui permet de réalier des formes géometriques simple ou un groupe de forme.
 
 L’objectif principal est de concevoir une application permettant la communication entre un client (interface utilisateur) et un serveur (traitement des données).
 
