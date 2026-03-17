@@ -18,8 +18,8 @@ Le projet est structuré en deux parties principales :
 
 ```
 PPIL/
-│── client/     # Interface utilisateur (Java)
-│── serveur/    # Backend (logique serveur, C++)
+│── client/   
+│── serveur/   
 │── RAPPORT PPIL.pdf
 │── projetSynthèse_L3_an_25_26.pdf
 ```
