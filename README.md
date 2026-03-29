@@ -26,7 +26,6 @@ PPIL/
 
 ### 🔹 Client
 
-* Interface web
 * Interaction utilisateur
 * Envoi de requêtes au serveur
 
